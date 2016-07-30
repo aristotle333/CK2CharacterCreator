@@ -135,6 +135,7 @@
     <ClCompile Include="characterForm.cpp" />
     <ClCompile Include="culturesParser.cpp" />
     <ClCompile Include="driver.cpp" />
+    <ClCompile Include="namesParser.cpp" />
     <ClCompile Include="provinceSetParser.cpp" />
   </ItemGroup>
   <ItemGroup>

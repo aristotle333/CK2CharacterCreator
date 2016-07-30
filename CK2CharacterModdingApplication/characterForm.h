@@ -1,6 +1,6 @@
 #pragma once
 #include <msclr\marshal_cppstd.h>
-#include <Shlwapi.h>
+//#include <Shlwapi.h>
 #include "driver.h"
 
 namespace CK2CharacterModdingApplication {
@@ -214,6 +214,9 @@ namespace CK2CharacterModdingApplication {
 #pragma endregion
 
     private: System::Void GenerateCharacters_Click(System::Object^  sender, System::EventArgs^  e) {
+        // Get miscellaneous attributes Singleton reference
+        miscellaneousAttributes& miscAttr = miscellaneousAttributes::get_instance();
+
         // Check if specified province and output directories are valid
         if (Directory::Exists(provincePathTextBox->Text)) {
             outputTextBox->AppendText("Valid province folder path\r\n");
@@ -249,7 +252,11 @@ namespace CK2CharacterModdingApplication {
             outputTextBox->AppendText(i + "\r\n");
         }
 
-        // Prepare the names that will be used
+        // Generate names Lists
+        GenerateNamesList(miscAttr.cultureNamesPath);
+        outputTextBox->AppendText("Succesfully Generated Names list!\r\n");
+
+
     }
 
     private: System::Void ChooseProvinceFolder(System::Object^  sender, System::EventArgs^  e) {

@@ -33,6 +33,9 @@
     <ClCompile Include="culturesParser.cpp">
       <Filter>Source Files\Parsers</Filter>
     </ClCompile>
+    <ClCompile Include="namesParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterForm.h">

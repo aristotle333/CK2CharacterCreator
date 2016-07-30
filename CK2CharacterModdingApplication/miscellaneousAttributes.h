@@ -1,6 +1,25 @@
 #pragma once
-using namespace System;
+#include <vector>
+#include <string>
+using std::vector;
+using std::string;
 
 struct miscellaneousAttributes {
-    //static String^ nameFileSelectedPath;
+
+    // Singleton Instance
+    static miscellaneousAttributes& get_instance() {
+        static miscellaneousAttributes instance;
+        return instance;
+    }
+
+    miscellaneousAttributes(miscellaneousAttributes const &) = delete;
+    miscellaneousAttributes(miscellaneousAttributes&&) = delete;
+
+    // Attribute Variables
+    string cultureNamesPath;
+    vector<string> maleNames;
+    vector<string> femaleNames;
+
+private:
+    miscellaneousAttributes() {}
 };

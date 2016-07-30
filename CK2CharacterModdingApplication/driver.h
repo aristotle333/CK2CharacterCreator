@@ -5,6 +5,8 @@
 #include <atlstr.h>
 #include "provinceSetParser.h"
 #include "culturesParser.h"
+#include "namesParser.h"
+#include "miscellaneousAttributes.h"
 using std::sort;
 using std::vector;
 using std::string;
@@ -17,3 +19,6 @@ vector<string> readAvailableCultures();
 
 // Converts a partial path to an absolute path
 LPCTSTR PrintFullPathCultureNames(string& partialPathS);
+
+// Generates the names list for the specified culture
+void GenerateNamesList(const string& cultureNamesPath);
