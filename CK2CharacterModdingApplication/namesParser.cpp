@@ -6,6 +6,8 @@ void NamesListParser(const string& cultureNamesPath) {
         miscellaneousAttributes& miscAttr = miscellaneousAttributes::get_instance();
         vector<string>& male_names = miscAttr.maleNames;
         vector<string>& female_names = miscAttr.femaleNames;
+        male_names.clear();
+        female_names.clear();
 
         string curr;    // The current read string
         while (ofs >> curr) {

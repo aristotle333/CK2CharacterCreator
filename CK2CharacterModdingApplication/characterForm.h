@@ -246,10 +246,11 @@ namespace CK2CharacterModdingApplication {
 
         // Display the provinces IDs for which characters will be generated
         string provinceDirectory = marshal_as<string>(provincePathTextBox->Text);
-        vector<int> provinceVector = readProvinces(provinceDirectory);
+        vector<string> provinceVector = readProvinces(provinceDirectory);
         outputTextBox->AppendText("Creating characters for the following provinces:\r\n");
-        for (int i : provinceVector) {
-            outputTextBox->AppendText(i + "\r\n");
+        for (string i : provinceVector) {
+            String ^s = gcnew String(i.c_str());
+            outputTextBox->AppendText(s + "\r\n");
         }
 
         // Generate names Lists

@@ -2,7 +2,7 @@
 
 // Driver Includes all the functions called by the characterForm
 
-vector<int> readProvinces(const string& directory) {
+vector<string> readProvinces(const string& directory) {
     return readProvincesDirectory(directory);
 }
 
