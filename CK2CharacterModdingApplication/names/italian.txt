@@ -1,0 +1,34 @@
+male names = {
+		Abbondanzio Abbondio Abelardo Abelino Achille Adalberto Albert Adelfo Adelmio Adelmo Adone Adriano Agapito Agostino Aimone Alamanno Alarico
+		Albano Alberico Alberto Albert Albino Alboino Alcide Aldobrandino Aleardo Aleramo Alessandro Alexander Alessio Alighiero Alvise Ambrogio Amedeo
+		Anastasio  Andrea Andrew Angelo Angel Annibale Anselmo Antonino Antoninus Antonio Antoninus Antoniotto Arcibaldo Arderico Armando Arnolfo
+		Arrigo Arsenio Artemio Ascanio Astorre Atenolfo Attilio Augusto Aurelio Aurelius Ausilio Ausonio Averado Azzo Azzone Baldassarre Baldovino Baldwin
+		Barnaba Bartolomeo Bartolomeus Basilio Basil Bassiano Basso Battista Beltrano Benedetto Benedict Benvenuto Berardo Bernabò Bernard Bernardo Bernard Berto
+		Bertoldo Biagio Bonaventura Bonifacio Bonifacius Borso Bruno Bruto Buonconte Buoso Callisto Camillo Camillus Candido Cangrande Carlo Cassio Castore Cataldo
+		Catone Cecco Cesare Chiaffredo Chiano Ciro Ciuccio Claudio Clemente Clement	Comita Conone Cornelio Cornelius Corradino Corrado Konrad Cosimo Cosma Costante Costantino
+		Costanzo Cristoforo Christopher Damiano Damian Davide David Demetrio Demetrius Dioniso Dionysus Doménico Dominic Durante Eduardo Edward Elio Emmanuele Manuel
+		Ennio Enrico Henry Enzio Enzo Ercole Eriprando Ermenegildo Ettore Eugenio Eugene Ezio Ezzelino Fabrizio Fausto Federigo Frederick Felice Felix Ferdinando
+		Ferdinand Ferruccio Filippo Philip Fiorello Flavio Folco Folke Fortunato Fosco Francesco Francis Fresco Gabriele Gabrino Gaetano Galasso Galeazzo Galeotto Gaspare
+		Gastone Gaston Gelasio Gentile Geraldo Gerald Gerardo Gerard Germano Gerolamo Gherardo Giacinto Giacomo Gian Gianfranco Gianleone Giano Giberto Gilberto Gilbert
+		Giolio Giordano Giorgio George Giovanni Giulio Giuseppe Goffredo Godfrey Gregorio Gregory Gualtiero Guarnito Guerrino Guglielmo Guido Guy Guidone Guy
+		Guigliadore Iacopo Igino Innocenzo Ippolito Isnardo Jacopo Jacob Lamberto Lambert Landolfo Landone Lanfranco Lattanzio Lazzarino Lazzaro
+		Lealdo Leonardo Leone Leo Leonello Leopoldo Libero Lionello Livio Lodovico Lorenzo Luca Luchino Lucio Lucius Luigi Malacresta Manfredo Manuele Manuel
+		Marco Marcus Mariano Marius Marino Mario Marius Marsiglio Martino Martin Massimo Mastino Matteo Matthew Merigo Michelangelo Michele Michael  Napoleone Nazareno
+		Nestore Niccolò Nicola Nino Nolfo Oberto Obizzino Obizzo Oddone Omero Onorio Oreste Orlando Ottavio Ottobono Ottone Otto Pagano Pancrazio Pandolfo Paolo Pasquale
+		Pascal Patrizio Patrick Pellegrino Pericle Pietro Peter Pio Prospero Rafaello Radul Raimondo Raymond Rainero Raineri Riccardo Richard Rinaldo Reinhold Rizzardo
+		Roberto Robert Rodolfo Rolando Rosso Ruggiero Salinguerra Salvatore Salvestro Sante Sancho Saverio Sciarra Sebastiano Sebastian Secondotto Serafino Sergio Sesto
+		Settimio Severino Severo Silvano Silvestro Simone Simon Simonetto Sinibaldo Sinucello Sozzo Spinetto Stefano Stephen Stentore Taddeo Tedaldo Tedice Teodoro Tibaldo
+		Theobald Tiziano Tommaso Torgodorio Torquato Ubaldo Uberto Ugo Hugh Ugoccione Ugolino Umberto Humbert Urbano Valentino Valentin Valerio Vincentello Vincenzo Vincent
+		Virginio Vitale Vittore Vittorio Zaccaria
+	}
+		
+female names = {
+		Abelina Adalberta Adalgisa Adelaida Adelaide Adelasia Adelia Adela Adriana Agalina Agnese Agnes Agostina Albina Alda Alessandra Alfonsina Alisia Alice Aloisia
+		Amalia Amelia Ambrosia Anastasia Anastasia Anna Anna Antonella Antonia Argentina Augusta Aurelia Ausilia Ausonia Beatrice Beatrice Benedetta Benedicta Benilde Berenice
+		Berta Bianca Blanche Bona Bonne Brunilde Brunhilda Camilla Candida Caracosa Carla Carola Caterina Catherine Cecilia Cecilia Clara Clara Claudia Clorinda 
+		Clotilde Clotilde Constanza Constance Cornelia Delinda Dora Edda Elena Helen Eleonora Eleanor Elisa Elisabeth Elisabetta Elisabeth Ermenegilda Eudossia Eugenia
+		Fausta Felicia Felicita Filippa Philippa Filomena Flavia Flora Flora Fortunata Fosca Francesca Francesca Froizza Giacinta Ginevra Giovanna Giuditta Giulia Juliana 
+		Giuseppa Ippolita Isabella Elisabeth Joscella Laura Laura Lavinia Leonide Letizia Lidia Livia Lodovica Lucia Lucia Lucinetta Lucrezia Maddalena Magdalena Marcella 
+		Margherita Margaret Maria Maria Mariana Marietta Martina Matilda Matilda Micaela Nunzia Paola Paula Patrizia Patricia Renata Ricciarda Ricarda Silvana
+		Sofia Sophia Stefania Stephania Tiziana Tomasina Valentina Violante Yolanda Virginia
+	}
