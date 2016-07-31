@@ -18,6 +18,7 @@ struct settingsAttributes {
     string culture;
     string religion;
     int character_id_from_province_multiplier;
+    int dynasty_id_from_province_multiplier;
     int mean_age_of_character_head;			
     int age_variance_of_character_head;
     int mean_number_of_traits;

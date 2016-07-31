@@ -9,6 +9,7 @@ void readSettingsFile() {
         setAttr.culture = readSettingsStringAttr("culture", ifs);
         setAttr.religion = readSettingsStringAttr("religion", ifs);
         setAttr.character_id_from_province_multiplier = readSettingsIntAttr("character_id_from_province_multiplier", ifs);
+        setAttr.dynasty_id_from_province_multiplier = readSettingsIntAttr("dynasty_id_from_province_multiplier", ifs);
         setAttr.mean_age_of_character_head = readSettingsIntAttr("mean_age_of_character_head", ifs);
         setAttr.age_variance_of_character_head = readSettingsIntAttr("age_variance_of_character_head", ifs);
         setAttr.mean_number_of_traits = readSettingsIntAttr("mean_number_of_traits", ifs);
