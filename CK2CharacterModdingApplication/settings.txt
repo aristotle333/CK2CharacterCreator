@@ -1,0 +1,10 @@
+start_date = 769
+culture = italian
+religion = catholic
+character_id_from_province_multiplier = 10	# Determines the lower id for a character in a given province calculated as: lowest_id_in_province = province_ID * character_id_from_province_multiplier
+mean_age_of_character_head = 30				# The average age of the lead character in the province
+age_variance_of_character_head = 10			# The plus/minus variation from the mean character age for the character head in the province
+mean_number_of_traits = 3
+number_of_traits_variance = 2
+mean_skill_values = 10
+skill_values_variance = 10

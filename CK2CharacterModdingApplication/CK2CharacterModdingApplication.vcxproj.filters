@@ -36,6 +36,9 @@
     <ClCompile Include="namesParser.cpp">
       <Filter>Source Files\Parsers</Filter>
     </ClCompile>
+    <ClCompile Include="settingsParser.cpp">
+      <Filter>Source Files\Parsers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterForm.h">
@@ -56,10 +59,21 @@
     <ClInclude Include="miscellaneousAttributes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="settingsParser.h">
+      <Filter>Header Files\ParserHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="settingsAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="characterForm.resx">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="settings.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -137,6 +137,7 @@
     <ClCompile Include="driver.cpp" />
     <ClCompile Include="namesParser.cpp" />
     <ClCompile Include="provinceSetParser.cpp" />
+    <ClCompile Include="settingsParser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="characterForm.h">
@@ -147,11 +148,16 @@
     <ClInclude Include="miscellaneousAttributes.h" />
     <ClInclude Include="namesParser.h" />
     <ClInclude Include="provinceSetParser.h" />
+    <ClInclude Include="settingsAttributes.h" />
+    <ClInclude Include="settingsParser.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="characterForm.resx">
       <DependentUpon>characterForm.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="settings.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

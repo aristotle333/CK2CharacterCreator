@@ -257,6 +257,8 @@ namespace CK2CharacterModdingApplication {
         GenerateNamesList(miscAttr.cultureNamesPath);
         outputTextBox->AppendText("Succesfully Generated Names list!\r\n");
 
+        // Generate characters and produce the character files
+
 
     }
 
