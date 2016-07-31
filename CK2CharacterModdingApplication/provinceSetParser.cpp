@@ -12,9 +12,10 @@ vector<string> readProvincesDirectory(const string& directory) {
     if ((dir = opendir(directory.c_str())) != NULL) {
         while ((ent = readdir(dir)) != NULL) {
             stringstream ss;
-            int provinceID; string dummy, provinceName;
+            int provinceID; string dummy, provinceNameFull;
             ss << ent->d_name;
-            if (ss >> provinceID >> dummy >> provinceName) {
+            if (ss >> provinceID >> dummy >> provinceNameFull) {
+                string provinceName = provinceNameFull.substr(0, provinceNameFull.find("."));
                 if (!provincesSet.count(provinceID)) {
                     provincesSet.emplace(provinceID, provinceName);
                 }

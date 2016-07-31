@@ -24,6 +24,8 @@ struct settingsAttributes {
     int number_of_traits_variance;
     int mean_skill_values;
     int skill_values_variance;
+    int mean_life_expectancy;
+    int life_expectancy_variance;
 
 private:
     settingsAttributes() {}

@@ -227,6 +227,7 @@ namespace CK2CharacterModdingApplication {
         }
         if (Directory::Exists(characterFolderTextbox->Text)) {
             outputTextBox->AppendText("Valid output folder path\r\n");
+            miscAttr.characterOutputPath = marshal_as<string>(characterFolderTextbox->Text);
         }
         else {
             outputTextBox->AppendText("Invalid output folder path!\r\n");
@@ -258,7 +259,7 @@ namespace CK2CharacterModdingApplication {
         outputTextBox->AppendText("Succesfully Generated Names list!\r\n");
 
         // Generate characters and produce the character files
-
+        CreateCharacterFiles(miscAttr.characterOutputPath);
 
     }
 

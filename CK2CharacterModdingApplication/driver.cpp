@@ -30,3 +30,7 @@ LPCTSTR PrintFullPathCultureNames(string& partialPathS) {
 void GenerateNamesList(const string& cultureNamesPath) {
     NamesListParser(cultureNamesPath);
 }
+
+void CreateCharacterFiles(const string& charactersOutputPath) {
+    CreateCharacters(charactersOutputPath);
+}

@@ -1,8 +1,8 @@
 #include "namesParser.h"
 
 void NamesListParser(const string& cultureNamesPath) {
-    ifstream ofs(cultureNamesPath);
-    if (ofs.is_open()) {
+    ifstream ifs(cultureNamesPath);
+    if (ifs.is_open()) {
         miscellaneousAttributes& miscAttr = miscellaneousAttributes::get_instance();
         vector<string>& male_names = miscAttr.maleNames;
         vector<string>& female_names = miscAttr.femaleNames;
@@ -10,40 +10,40 @@ void NamesListParser(const string& cultureNamesPath) {
         female_names.clear();
 
         string curr;    // The current read string
-        while (ofs >> curr) {
+        while (ifs >> curr) {
             // Read male names            
-            if (!CheckForString(curr, "male_names", cultureNamesPath, ofs)) {
+            if (!CheckForString(curr, "male_names", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            ofs >> curr;
-            if (!CheckForString(curr, "=", cultureNamesPath, ofs)) {
+            ifs >> curr;
+            if (!CheckForString(curr, "=", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            ofs >> curr;
-            if (!CheckForString(curr, "{", cultureNamesPath, ofs)) {
+            ifs >> curr;
+            if (!CheckForString(curr, "{", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            while (ofs >> curr) {
+            while (ifs >> curr) {
                 if (curr == "}") {
                     break;      // Done reading male_names;
                 }
                 male_names.emplace_back(curr);
             }
 
-            ofs >> curr;
+            ifs >> curr;
             // Read female names
-            if (!CheckForString(curr, "female_names", cultureNamesPath, ofs)) {
+            if (!CheckForString(curr, "female_names", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            ofs >> curr;
-            if (!CheckForString(curr, "=", cultureNamesPath, ofs)) {
+            ifs >> curr;
+            if (!CheckForString(curr, "=", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            ofs >> curr;
-            if (!CheckForString(curr, "{", cultureNamesPath, ofs)) {
+            ifs >> curr;
+            if (!CheckForString(curr, "{", cultureNamesPath, ifs)) {
                 throw std::exception();
             }
-            while (ofs >> curr) {
+            while (ifs >> curr) {
                 if (curr == "}") {
                     break;      // Done reading female_names;
                 }
@@ -55,14 +55,14 @@ void NamesListParser(const string& cultureNamesPath) {
         std::cerr << "Unable to open the culture file at " + cultureNamesPath;
         throw std::exception();
     }
-    ofs.close();
+    ifs.close();
 }
 
 
-bool CheckForString(const string& input, const string& target, const string& path, ifstream& ofs){
+bool CheckForString(const string& input, const string& target, const string& path, ifstream& ifs){
     if (input != target) {
         std::cerr << "Error at reading names. Check the syntax of the file " + path;
-        ofs.close();
+        ifs.close();
         return false;
     }
     else {

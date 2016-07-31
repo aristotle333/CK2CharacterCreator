@@ -132,6 +132,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="characterCreator.cpp" />
     <ClCompile Include="characterForm.cpp" />
     <ClCompile Include="culturesParser.cpp" />
     <ClCompile Include="driver.cpp" />
@@ -140,6 +141,7 @@
     <ClCompile Include="settingsParser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="characterCreator.h" />
     <ClInclude Include="characterForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>

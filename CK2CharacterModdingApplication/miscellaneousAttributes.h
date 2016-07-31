@@ -27,6 +27,9 @@ struct miscellaneousAttributes {
     vector<string> maleNames;
     vector<string> femaleNames;
 
+    // Characters Related
+    string characterOutputPath;
+
 private:
     miscellaneousAttributes() {}
 };
