@@ -1,16 +1,5 @@
 #include "characterCreator.h"
 
-struct characterAttributes {
-    unordered_set<string> maleNames, femaleNames;
-    int currentID;      // The latest unused character ID
-    int headID;         // The character ID of the head
-    int headAge;        // The age of the head of the dynasty
-
-    int getNextID() const {
-        return currentID + 1;
-    }
-};
-
 void CreateCharacters(const string& characterOutputPath) {
     // Get references to singletons
     miscellaneousAttributes& miscAttr = miscellaneousAttributes::get_instance();
@@ -29,8 +18,29 @@ void CreateCharacters(const string& characterOutputPath) {
             CreateCharacter(true, false, false, charAttr, ofs);
 
             // Create the parents
+            CreateCharacter(true, false, true, charAttr, ofs);  // Father of Head
+            CreateCharacter(false, true, false, charAttr, ofs);  // Mother of head
 
-            
+            // Number of brothers or sisters
+            int numberOfBrothers = randNumInRange(0, 3);
+            int numberOfSisters = randNumInRange(0, 3);
+
+            // Create brothers of the head
+            while (numberOfBrothers--) {
+                int brotherIsMarried = rand() % 2;
+                if (brotherIsMarried) {
+                    CreateCharacter(true, false, true, charAttr, ofs);
+                    CreateCharacter(false, true, false, charAttr, ofs);
+                }
+                else {
+                    CreateCharacter(true, false, false, charAttr, ofs);
+                }
+            }
+
+            // Create brothers of the head
+            while (numberOfSisters--) {
+                CreateCharacter(true, true, false, charAttr, ofs);
+            }
 
             ofs.close();
         }
@@ -67,11 +77,16 @@ void CreateCharacter(bool isDynastic, bool isFemale, bool hasSpouse, characterAt
     ofs << "\t" << birthDate.second << "={birth=yes}\n";
     // Create marriage for a brother if hasSpouse == true
     if (hasSpouse) {
-        ofs << "\t" << CreateMariageDate(birthDate.first) << "={add_spouse=" << charAttr.currentID + 1 << "}\n";
+        ofs << "\t" << CreateMariageDate(birthDate.first, charAttr) << "={add_spouse=" << charAttr.currentID + 1 << "}\n";
     }
     // Create death
-    ofs << "\t" << 
+    ofs << "\t" << CreateDeathDate(birthDate.first, charAttr) << "={death=yes}\n";
 
+    // End character information
+    ofs << "}\n\n";
+
+    // Increment currentID
+    ++charAttr.currentID;
 }
 
 string CreateName(bool isFemale, characterAttributes& charAttr) {
@@ -136,11 +151,19 @@ pair<int, string> CreateBirthDate(bool isFemale, characterAttributes& charAttr) 
     return pair<int, string>(year, dateString);
 }
 
-string CreateMariageDate(int maleAge) {
+string CreateMariageDate(int maleAge, characterAttributes& charAttr) {
     int year, month, day;
     settingsAttributes& settAttr = settingsAttributes::get_instance();
     int adultYear = settAttr.start_date - (maleAge - 17);
-    year = randNumInRange(adultYear, settAttr.start_date);
+
+    // Marriage of the father of the head
+    if (charAttr.currentID == charAttr.headID + 1) {
+        year = randNumInRange(adultYear, settAttr.start_date - charAttr.headAge - 1);
+    }
+    // Marriage of the brothers of the head
+    else {
+        year = randNumInRange(adultYear, settAttr.start_date);
+    }
     month = randNumInRange(1, 12);
     day = randNumInRange(1, 28);
     string dateString = to_string(year) + "." + to_string(month) + "." + to_string(day);
@@ -156,9 +179,10 @@ string CreateDeathDate(int curr_age, characterAttributes& charAttr) {
     }
     // Death is after the start date for all other characters
     else {
-
+        year = randNumWithVar(settAttr.start_date - curr_age + settAttr.mean_life_expectancy, settAttr.life_expectancy_variance);
     }
     month = randNumInRange(1, 12);
     day = randNumInRange(1, 28);
     string dateString = to_string(year) + "." + to_string(month) + "." + to_string(day);
+    return dateString;
 }
