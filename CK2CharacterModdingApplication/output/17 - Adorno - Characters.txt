@@ -1,1 +1,101 @@
-Hi this is Adorno
+1700 = {
+	name="Lanfranco"
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=7  stewardship=11  intrigue=14  learning=6
+	father=1701	mother=1702
+	736.12.11={birth=yes}
+	793.3.11={death=yes}
+}
+
+1701 = {
+	name="Gaetano"
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=19  stewardship=16  intrigue=19  learning=11
+	703.11.11={birth=yes}
+	721.11.27={add_spouse=1702}
+	738.2.16={death=yes}
+}
+
+1702 = {
+	name="Marcella"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=0  martial=2  stewardship=11  intrigue=6  learning=0
+	701.10.12={birth=yes}
+	743.7.3={death=yes}
+}
+
+1703 = {
+	name="Abbondio"
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=10  martial=13  stewardship=11  intrigue=7  learning=7
+	father=1701	mother=1702
+	752.2.20={birth=yes}
+	768.7.18={add_spouse=1704}
+	803.2.7={death=yes}
+}
+
+1704 = {
+	name="Lucinetta"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=5  stewardship=6  intrigue=19  learning=17
+	735.4.19={birth=yes}
+	786.9.14={death=yes}
+}
+
+1705 = {
+	name="Arrigo"
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=17  stewardship=15  intrigue=20  learning=11
+	father=1701	mother=1702
+	737.1.24={birth=yes}
+	765.3.5={add_spouse=1706}
+	784.12.22={death=yes}
+}
+
+1706 = {
+	name="Camilla"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=9  stewardship=0  intrigue=3  learning=20
+	742.5.14={birth=yes}
+	804.5.3={death=yes}
+}
+
+1707 = {
+	name="Godfrey"
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=3  stewardship=8  intrigue=10  learning=12
+	father=1701	mother=1702
+	750.10.13={birth=yes}
+	797.2.25={death=yes}
+}
+
+1708 = {
+	name="Aurelia"
+	female=yes
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=10  martial=5  stewardship=13  intrigue=10  learning=5
+	father=1701	mother=1702
+	743.7.27={birth=yes}
+	804.8.4={death=yes}
+}
+
+1709 = {
+	name="Alfonsina"
+	female=yes
+	dynasty=170
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=7  stewardship=6  intrigue=10  learning=0
+	father=1701	mother=1702
+	737.4.28={birth=yes}
+	791.10.3={death=yes}
+}
+

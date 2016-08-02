@@ -1,1 +1,102 @@
-Hi this is Ittona
+1300 = {
+	name="Cosimo"
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=16  martial=11  stewardship=11  intrigue=13  learning=20
+	father=1301	mother=1302
+	741.11.16={birth=yes}
+	803.1.2={death=yes}
+}
+
+1301 = {
+	name="Gastone"
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=4  stewardship=0  intrigue=0  learning=18
+	716.10.16={birth=yes}
+	736.3.2={add_spouse=1302}
+	745.2.24={death=yes}
+}
+
+1302 = {
+	name="Eleonora"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=6  stewardship=11  intrigue=7  learning=20
+	715.4.24={birth=yes}
+	759.12.2={death=yes}
+}
+
+1303 = {
+	name="Tibaldo"
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=1  martial=8  stewardship=0  intrigue=7  learning=14
+	father=1301	mother=1302
+	753.9.8={birth=yes}
+	769.12.2={add_spouse=1304}
+	815.7.9={death=yes}
+}
+
+1304 = {
+	name="Leonide"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=9  martial=2  stewardship=13  intrigue=16  learning=8
+	748.3.26={birth=yes}
+	802.3.26={death=yes}
+}
+
+1305 = {
+	name="Torgodorio"
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=12  stewardship=8  intrigue=16  learning=13
+	father=1301	mother=1302
+	746.5.26={birth=yes}
+	765.7.11={add_spouse=1306}
+	807.6.24={death=yes}
+}
+
+1306 = {
+	name="Laura"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=13  stewardship=12  intrigue=12  learning=16
+	740.10.2={birth=yes}
+	787.11.3={death=yes}
+}
+
+1307 = {
+	name="Flora"
+	female=yes
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=18  stewardship=18  intrigue=10  learning=13
+	father=1301	mother=1302
+	742.2.18={birth=yes}
+	789.10.28={death=yes}
+}
+
+1308 = {
+	name="Elisabetta"
+	female=yes
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=0  martial=15  stewardship=2  intrigue=0  learning=0
+	father=1301	mother=1302
+	747.12.5={birth=yes}
+	793.2.11={death=yes}
+}
+
+1309 = {
+	name="Mariana"
+	female=yes
+	dynasty=130
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=2  stewardship=2  intrigue=8  learning=6
+	father=1301	mother=1302
+	740.7.28={birth=yes}
+	791.9.18={death=yes}
+}
+

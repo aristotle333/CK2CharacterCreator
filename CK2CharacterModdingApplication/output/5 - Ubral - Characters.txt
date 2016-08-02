@@ -1,1 +1,80 @@
-Hi this is Ubral
+500 = {
+	name="Alarico"
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=1  martial=16  stewardship=17  intrigue=7  learning=20
+	father=501	mother=502
+	751.5.22={birth=yes}
+	798.8.27={death=yes}
+}
+
+501 = {
+	name="Pericle"
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=5  stewardship=13  intrigue=0  learning=5
+	721.9.20={birth=yes}
+	743.2.2={add_spouse=502}
+	754.8.5={death=yes}
+}
+
+502 = {
+	name="Stephania"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=7  stewardship=5  intrigue=17  learning=1
+	724.4.7={birth=yes}
+	765.4.25={death=yes}
+}
+
+503 = {
+	name="Ruggiero"
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=1  martial=15  stewardship=4  intrigue=10  learning=5
+	father=501	mother=502
+	752.3.1={birth=yes}
+	804.6.12={death=yes}
+}
+
+504 = {
+	name="Serafino"
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=9  martial=11  stewardship=18  intrigue=17  learning=15
+	father=501	mother=502
+	753.12.26={birth=yes}
+	810.11.8={death=yes}
+}
+
+505 = {
+	name="Bassiano"
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=11  stewardship=8  intrigue=14  learning=11
+	father=501	mother=502
+	752.3.25={birth=yes}
+	769.8.27={add_spouse=506}
+	810.2.22={death=yes}
+}
+
+506 = {
+	name="Isabella"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=4  martial=6  stewardship=10  intrigue=10  learning=2
+	745.7.12={birth=yes}
+	793.11.13={death=yes}
+}
+
+507 = {
+	name="Constanza"
+	female=yes
+	dynasty=50
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=9  stewardship=11  intrigue=6  learning=15
+	father=501	mother=502
+	743.3.15={birth=yes}
+	797.6.5={death=yes}
+}
+

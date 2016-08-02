@@ -1,1 +1,82 @@
-Hi this is Riverstone
+200 = {
+	name="Sinibaldo"
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=0  martial=0  stewardship=17  intrigue=1  learning=17
+	father=201	mother=202
+	737.2.26={birth=yes}
+	786.3.18={death=yes}
+}
+
+201 = {
+	name="Baldassarre"
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=5  stewardship=16  intrigue=17  learning=11
+	711.10.6={birth=yes}
+	731.5.13={add_spouse=202}
+	740.12.21={death=yes}
+}
+
+202 = {
+	name="Fosca"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=6  stewardship=2  intrigue=6  learning=20
+	704.8.2={birth=yes}
+	739.8.9={death=yes}
+}
+
+203 = {
+	name="Salinguerra"
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=13  stewardship=17  intrigue=6  learning=15
+	father=201	mother=202
+	746.7.16={birth=yes}
+	768.6.4={add_spouse=204}
+	797.5.26={death=yes}
+}
+
+204 = {
+	name="Caterina"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=9  martial=7  stewardship=7  intrigue=7  learning=14
+	735.10.7={birth=yes}
+	798.6.8={death=yes}
+}
+
+205 = {
+	name="Anastasia"
+	female=yes
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=15  martial=13  stewardship=14  intrigue=19  learning=3
+	father=201	mother=202
+	742.1.14={birth=yes}
+	799.12.4={death=yes}
+}
+
+206 = {
+	name="Bonne"
+	female=yes
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=3  stewardship=2  intrigue=5  learning=15
+	father=201	mother=202
+	733.5.8={birth=yes}
+	797.11.2={death=yes}
+}
+
+207 = {
+	name="Mariana"
+	female=yes
+	dynasty=20
+	culture="italian"	religion="catholic"
+	diplomacy=9  martial=15  stewardship=19  intrigue=8  learning=15
+	father=201	mother=202
+	740.1.8={birth=yes}
+	797.5.21={death=yes}
+}
+

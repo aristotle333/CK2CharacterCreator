@@ -1,1 +1,82 @@
-Hi this is Telli
+900 = {
+	name="Bassiano"
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=7  martial=5  stewardship=16  intrigue=20  learning=3
+	father=901	mother=902
+	752.7.4={birth=yes}
+	815.8.18={death=yes}
+}
+
+901 = {
+	name="David"
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=12  stewardship=20  intrigue=13  learning=16
+	721.4.20={birth=yes}
+	746.2.7={add_spouse=902}
+	756.5.1={death=yes}
+}
+
+902 = {
+	name="Aloisia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=13  stewardship=13  intrigue=5  learning=9
+	718.11.5={birth=yes}
+	754.8.2={death=yes}
+}
+
+903 = {
+	name="Lorenzo"
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=13  stewardship=18  intrigue=0  learning=7
+	father=901	mother=902
+	753.12.7={birth=yes}
+	769.12.13={add_spouse=904}
+	805.3.26={death=yes}
+}
+
+904 = {
+	name="Valentina"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=2  stewardship=17  intrigue=6  learning=18
+	746.5.23={birth=yes}
+	803.12.1={death=yes}
+}
+
+905 = {
+	name="Adelaida"
+	female=yes
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=15  stewardship=8  intrigue=15  learning=12
+	father=901	mother=902
+	756.6.10={birth=yes}
+	819.9.17={death=yes}
+}
+
+906 = {
+	name="Brunilde"
+	female=yes
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=3  stewardship=2  intrigue=3  learning=16
+	father=901	mother=902
+	757.11.12={birth=yes}
+	820.7.25={death=yes}
+}
+
+907 = {
+	name="Ausilia"
+	female=yes
+	dynasty=90
+	culture="italian"	religion="catholic"
+	diplomacy=0  martial=13  stewardship=11  intrigue=6  learning=6
+	father=901	mother=902
+	756.5.18={birth=yes}
+	814.2.20={death=yes}
+}
+

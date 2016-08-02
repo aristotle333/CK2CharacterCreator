@@ -1,1 +1,70 @@
-Hi this is Estela
+600 = {
+	name="Galeotto"
+	dynasty=60
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=18  stewardship=8  intrigue=7  learning=10
+	father=601	mother=602
+	746.1.7={birth=yes}
+	800.7.7={death=yes}
+}
+
+601 = {
+	name="Castore"
+	dynasty=60
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=20  stewardship=3  intrigue=13  learning=18
+	719.2.8={birth=yes}
+	738.2.13={add_spouse=602}
+	763.1.21={death=yes}
+}
+
+602 = {
+	name="Elisa"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=6  stewardship=11  intrigue=15  learning=11
+	720.4.14={birth=yes}
+	760.1.17={death=yes}
+}
+
+603 = {
+	name="Urbano"
+	dynasty=60
+	culture="italian"	religion="catholic"
+	diplomacy=15  martial=11  stewardship=11  intrigue=2  learning=17
+	father=601	mother=602
+	748.11.13={birth=yes}
+	765.4.5={add_spouse=604}
+	809.4.27={death=yes}
+}
+
+604 = {
+	name="Virginia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=1  stewardship=17  intrigue=12  learning=13
+	738.6.11={birth=yes}
+	798.9.3={death=yes}
+}
+
+605 = {
+	name="Gaston"
+	dynasty=60
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=18  stewardship=20  intrigue=3  learning=19
+	father=601	mother=602
+	747.7.9={birth=yes}
+	812.7.10={death=yes}
+}
+
+606 = {
+	name="Fosca"
+	female=yes
+	dynasty=60
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=17  stewardship=9  intrigue=11  learning=0
+	father=601	mother=602
+	744.2.14={birth=yes}
+	798.9.6={death=yes}
+}
+

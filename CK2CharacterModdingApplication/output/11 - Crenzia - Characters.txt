@@ -1,1 +1,112 @@
-Hi this is Crenzia
+1100 = {
+	name="Sancho"
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=8  martial=7  stewardship=16  intrigue=11  learning=14
+	father=1101	mother=1102
+	741.11.7={birth=yes}
+	800.1.22={death=yes}
+}
+
+1101 = {
+	name="Cataldo"
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=16  martial=19  stewardship=2  intrigue=5  learning=3
+	707.4.27={birth=yes}
+	735.1.26={add_spouse=1102}
+	767.11.7={death=yes}
+}
+
+1102 = {
+	name="Paola"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=1  martial=19  stewardship=12  intrigue=10  learning=13
+	711.11.2={birth=yes}
+	742.8.19={death=yes}
+}
+
+1103 = {
+	name="Nazareno"
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=7  stewardship=5  intrigue=13  learning=12
+	father=1101	mother=1102
+	751.5.7={birth=yes}
+	802.5.26={death=yes}
+}
+
+1104 = {
+	name="Ausilio"
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=12  martial=9  stewardship=4  intrigue=16  learning=10
+	father=1101	mother=1102
+	753.3.20={birth=yes}
+	769.4.8={add_spouse=1105}
+	803.9.8={death=yes}
+}
+
+1105 = {
+	name="Alice"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=13  stewardship=6  intrigue=0  learning=9
+	744.4.27={birth=yes}
+	796.6.18={death=yes}
+}
+
+1106 = {
+	name="Bonifacio"
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=7  stewardship=1  intrigue=17  learning=19
+	father=1101	mother=1102
+	750.2.21={birth=yes}
+	768.11.17={add_spouse=1107}
+	805.8.19={death=yes}
+}
+
+1107 = {
+	name="Beatrice"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=9  stewardship=20  intrigue=3  learning=11
+	739.11.19={birth=yes}
+	801.2.18={death=yes}
+}
+
+1108 = {
+	name="Anna"
+	female=yes
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=1  stewardship=8  intrigue=16  learning=17
+	father=1101	mother=1102
+	746.11.5={birth=yes}
+	795.10.5={death=yes}
+}
+
+1109 = {
+	name="Ambrosia"
+	female=yes
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=12  martial=6  stewardship=0  intrigue=17  learning=19
+	father=1101	mother=1102
+	735.4.4={birth=yes}
+	793.12.9={death=yes}
+}
+
+1110 = {
+	name="Patricia"
+	female=yes
+	dynasty=110
+	culture="italian"	religion="catholic"
+	diplomacy=16  martial=5  stewardship=4  intrigue=17  learning=11
+	father=1101	mother=1102
+	741.1.4={birth=yes}
+	792.2.24={death=yes}
+}
+

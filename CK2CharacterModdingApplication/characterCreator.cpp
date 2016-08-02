@@ -13,6 +13,7 @@ void CreateCharacters(const string& characterOutputPath) {
             characterAttributes charAttr;
             charAttr.headID = settAttr.character_id_from_province_multiplier * provIDName.first;    // IDs headID + 1 and headID + 2 are reserved for the parents of the current head of dynasty
             charAttr.currentID = charAttr.headID;
+            charAttr.provinceID = provIDName.first;
 
             // Create the head
             CreateCharacter(true, false, false, charAttr, ofs);
@@ -58,8 +59,15 @@ void CreateCharacter(bool isDynastic, bool isFemale, bool hasSpouse, characterAt
     ofs << charAttr.currentID << " = {\n";
     // Create name
     ofs << "\t" << "name=\"" << CreateName(isFemale, charAttr) << "\"\n";
+    // Character Sex
+    if (isFemale) {
+        ofs << "\t" << "female=yes\n";
+    }
 
     // TODO ADD Dynasty Creation here
+    if (isDynastic) {
+        ofs << "\t" << "dynasty=" << settAttr.dynasty_id_from_province_multiplier * charAttr.provinceID << "\n";
+    }
 
     // Create culture and religion
     ofs << "\t" << "culture=\"" << settAttr.culture << "\"\t" << "religion=\"" << settAttr.religion << "\"\n";
@@ -92,17 +100,17 @@ void CreateCharacter(bool isDynastic, bool isFemale, bool hasSpouse, characterAt
 string CreateName(bool isFemale, characterAttributes& charAttr) {
     miscellaneousAttributes& miscAttr = miscellaneousAttributes::get_instance();
     if (isFemale) {
-        string randomFemaleName = miscAttr.femaleNames[randNumInRange(0, miscAttr.femaleNames.size())];
+        string randomFemaleName = miscAttr.femaleNames[randNumInRange(0, miscAttr.femaleNames.size() - 1)];
         while (charAttr.femaleNames.count(randomFemaleName)) {
-            randomFemaleName = miscAttr.femaleNames[randNumInRange(0, miscAttr.femaleNames.size())];
+            randomFemaleName = miscAttr.femaleNames[randNumInRange(0, miscAttr.femaleNames.size() - 1)];
         }
         charAttr.femaleNames.emplace(randomFemaleName);
         return randomFemaleName;
     }
     else {
-        string randomMaleName = miscAttr.maleNames[randNumInRange(0, miscAttr.maleNames.size())];
+        string randomMaleName = miscAttr.maleNames[randNumInRange(0, miscAttr.maleNames.size() - 1)];
         while (charAttr.maleNames.count(randomMaleName)) {
-            randomMaleName = miscAttr.maleNames[randNumInRange(0, miscAttr.maleNames.size())];
+            randomMaleName = miscAttr.maleNames[randNumInRange(0, miscAttr.maleNames.size() - 1)];
         }
         charAttr.maleNames.emplace(randomMaleName);
         return randomMaleName;
@@ -114,10 +122,10 @@ string CreateSkills() {
     int mean = settAttr.mean_skill_values;
     int variance = settAttr.skill_values_variance;
     string res;
-    res = "diplomacy=" + to_string(randNumWithVar(mean, variance)) + "\t";
-    res += "martial=" + to_string(randNumWithVar(mean, variance)) + "\t";
-    res += "stewardship=" + to_string(randNumWithVar(mean, variance)) + "\t";
-    res += "intrigue=" + to_string(randNumWithVar(mean, variance)) + "\t";
+    res = "diplomacy=" + to_string(randNumWithVar(mean, variance)) + "  ";
+    res += "martial=" + to_string(randNumWithVar(mean, variance)) + "  ";
+    res += "stewardship=" + to_string(randNumWithVar(mean, variance)) + "  ";
+    res += "intrigue=" + to_string(randNumWithVar(mean, variance)) + "  ";
     res += "learning=" + to_string(randNumWithVar(mean, variance));
     return res;
 }
@@ -132,7 +140,7 @@ pair<int, string> CreateBirthDate(bool isFemale, characterAttributes& charAttr) 
         charAttr.headAge = settAttr.start_date - year;
     }
     // Check if we create parents of the head
-    else if (charAttr.currentID == charAttr.headID + 1 || charAttr.currentID == charAttr.headID + 2) {
+    else if (charAttr.currentID == (charAttr.headID + 1) || charAttr.currentID == (charAttr.headID + 2)) {
         year = randNumWithVar(settAttr.start_date - charAttr.headAge - 30, 5);
     }
     // Check if we create sisters for the head or spouses for head's brother (they can be older than head)
@@ -142,7 +150,7 @@ pair<int, string> CreateBirthDate(bool isFemale, characterAttributes& charAttr) 
     // Check if we create brothers of the head (they must be younger than the head)
     else {
         year = randNumInRange(settAttr.start_date - charAttr.headAge + 1,
-                              settAttr.start_date - charAttr.headAge + settAttr.age_variance_of_character_head);
+                              settAttr.start_date - 16);
     }
 
     month = randNumInRange(1, 12);
@@ -151,13 +159,13 @@ pair<int, string> CreateBirthDate(bool isFemale, characterAttributes& charAttr) 
     return pair<int, string>(year, dateString);
 }
 
-string CreateMariageDate(int maleAge, characterAttributes& charAttr) {
+string CreateMariageDate(int birthYear, characterAttributes& charAttr) {
     int year, month, day;
     settingsAttributes& settAttr = settingsAttributes::get_instance();
-    int adultYear = settAttr.start_date - (maleAge - 17);
+    int adultYear = birthYear + 16;
 
     // Marriage of the father of the head
-    if (charAttr.currentID == charAttr.headID + 1) {
+    if (charAttr.currentID == (charAttr.headID + 1)) {
         year = randNumInRange(adultYear, settAttr.start_date - charAttr.headAge - 1);
     }
     // Marriage of the brothers of the head
@@ -170,16 +178,16 @@ string CreateMariageDate(int maleAge, characterAttributes& charAttr) {
     return dateString;
 }
 
-string CreateDeathDate(int curr_age, characterAttributes& charAttr) {
+string CreateDeathDate(int birthYear, characterAttributes& charAttr) {
     int year, month, day;
     settingsAttributes& settAttr = settingsAttributes::get_instance();
     // Make sure parents of current head are dead before the start date
-    if (charAttr.currentID == charAttr.headID + 1 || charAttr.currentID == charAttr.headID + 2) {
+    if (charAttr.currentID == (charAttr.headID + 1) || charAttr.currentID == (charAttr.headID + 2)) {
         year = randNumInRange(settAttr.start_date - charAttr.headAge + 1, settAttr.start_date - 1);
     }
     // Death is after the start date for all other characters
     else {
-        year = randNumWithVar(settAttr.start_date - curr_age + settAttr.mean_life_expectancy, settAttr.life_expectancy_variance);
+        year = randNumWithVar(birthYear + settAttr.mean_life_expectancy, settAttr.life_expectancy_variance);
     }
     month = randNumInRange(1, 12);
     day = randNumInRange(1, 28);

@@ -1,1 +1,91 @@
-Hi this is Eston
+100 = {
+	name="Umberto"
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=10  martial=3  stewardship=17  intrigue=7  learning=7
+	father=101	mother=102
+	750.1.19={birth=yes}
+	801.12.18={death=yes}
+}
+
+101 = {
+	name="Mastino"
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=10  martial=10  stewardship=9  intrigue=17  learning=17
+	725.12.8={birth=yes}
+	744.7.23={add_spouse=102}
+	758.1.8={death=yes}
+}
+
+102 = {
+	name="Micaela"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=9  stewardship=19  intrigue=3  learning=8
+	725.12.16={birth=yes}
+	768.9.18={death=yes}
+}
+
+103 = {
+	name="Robert"
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=5  stewardship=17  intrigue=4  learning=13
+	father=101	mother=102
+	751.4.21={birth=yes}
+	813.6.22={death=yes}
+}
+
+104 = {
+	name="Virginio"
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=1  stewardship=12  intrigue=11  learning=8
+	father=101	mother=102
+	751.7.22={birth=yes}
+	767.3.5={add_spouse=105}
+	804.12.28={death=yes}
+}
+
+105 = {
+	name="Abelina"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=10  stewardship=6  intrigue=4  learning=11
+	749.11.28={birth=yes}
+	796.5.21={death=yes}
+}
+
+106 = {
+	name="Patrizio"
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=4  stewardship=8  intrigue=4  learning=15
+	father=101	mother=102
+	752.1.25={birth=yes}
+	806.4.18={death=yes}
+}
+
+107 = {
+	name="Alda"
+	female=yes
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=20  stewardship=8  intrigue=2  learning=15
+	father=101	mother=102
+	753.12.14={birth=yes}
+	808.9.12={death=yes}
+}
+
+108 = {
+	name="Adelia"
+	female=yes
+	dynasty=10
+	culture="italian"	religion="catholic"
+	diplomacy=7  martial=3  stewardship=9  intrigue=14  learning=11
+	father=101	mother=102
+	742.12.17={birth=yes}
+	792.1.16={death=yes}
+}
+

@@ -1,1 +1,69 @@
-Hi this is Doelith
+300 = {
+	name="Michael"
+	dynasty=30
+	culture="italian"	religion="catholic"
+	diplomacy=4  martial=17  stewardship=10  intrigue=0  learning=13
+	father=301	mother=302
+	745.10.11={birth=yes}
+	796.4.21={death=yes}
+}
+
+301 = {
+	name="Borso"
+	dynasty=30
+	culture="italian"	religion="catholic"
+	diplomacy=8  martial=20  stewardship=6  intrigue=15  learning=13
+	710.12.11={birth=yes}
+	728.8.27={add_spouse=302}
+	761.1.8={death=yes}
+}
+
+302 = {
+	name="Joscella"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=18  stewardship=1  intrigue=5  learning=10
+	718.6.5={birth=yes}
+	750.12.3={death=yes}
+}
+
+303 = {
+	name="Giano"
+	dynasty=30
+	culture="italian"	religion="catholic"
+	diplomacy=11  martial=18  stewardship=8  intrigue=10  learning=18
+	father=301	mother=302
+	753.9.7={birth=yes}
+	798.8.8={death=yes}
+}
+
+304 = {
+	name="Damian"
+	dynasty=30
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=10  stewardship=11  intrigue=13  learning=9
+	father=301	mother=302
+	753.9.14={birth=yes}
+	813.1.4={death=yes}
+}
+
+305 = {
+	name="Comita"
+	dynasty=30
+	culture="italian"	religion="catholic"
+	diplomacy=7  martial=2  stewardship=18  intrigue=17  learning=8
+	father=301	mother=302
+	753.9.10={birth=yes}
+	769.2.21={add_spouse=306}
+	813.7.1={death=yes}
+}
+
+306 = {
+	name="Eudossia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=2  stewardship=19  intrigue=20  learning=20
+	751.3.8={birth=yes}
+	802.4.14={death=yes}
+}
+

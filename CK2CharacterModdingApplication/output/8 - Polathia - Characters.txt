@@ -1,1 +1,40 @@
-Hi this is Polathia
+800 = {
+	name="Pandolfo"
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=3  stewardship=7  intrigue=18  learning=11
+	father=801	mother=802
+	747.12.23={birth=yes}
+	801.4.6={death=yes}
+}
+
+801 = {
+	name="Salinguerra"
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=7  stewardship=6  intrigue=8  learning=4
+	714.8.14={birth=yes}
+	732.5.25={add_spouse=802}
+	768.1.23={death=yes}
+}
+
+802 = {
+	name="Cecilia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=14  martial=6  stewardship=10  intrigue=0  learning=16
+	714.8.4={birth=yes}
+	761.5.9={death=yes}
+}
+
+803 = {
+	name="Matilda"
+	female=yes
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=16  stewardship=16  intrigue=6  learning=13
+	father=801	mother=802
+	749.3.26={birth=yes}
+	809.6.10={death=yes}
+}
+

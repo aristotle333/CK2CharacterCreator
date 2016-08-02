@@ -1,1 +1,60 @@
-Hi this is Todi
+1200 = {
+	name="Attilio"
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=15  martial=1  stewardship=20  intrigue=14  learning=11
+	father=1201	mother=1202
+	736.11.20={birth=yes}
+	790.8.20={death=yes}
+}
+
+1201 = {
+	name="Rolando"
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=4  stewardship=11  intrigue=2  learning=4
+	704.4.26={birth=yes}
+	734.12.2={add_spouse=1202}
+	753.4.16={death=yes}
+}
+
+1202 = {
+	name="Aurelia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=6  stewardship=18  intrigue=14  learning=3
+	707.9.28={birth=yes}
+	759.6.8={death=yes}
+}
+
+1203 = {
+	name="Luigi"
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=7  stewardship=15  intrigue=11  learning=2
+	father=1201	mother=1202
+	745.9.7={birth=yes}
+	761.8.24={add_spouse=1204}
+	802.10.11={death=yes}
+}
+
+1204 = {
+	name="Clara"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=4  martial=10  stewardship=18  intrigue=20  learning=18
+	729.7.8={birth=yes}
+	783.12.1={death=yes}
+}
+
+1205 = {
+	name="Margherita"
+	female=yes
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=4  martial=19  stewardship=18  intrigue=14  learning=11
+	father=1201	mother=1202
+	736.4.20={birth=yes}
+	781.12.24={death=yes}
+}
+

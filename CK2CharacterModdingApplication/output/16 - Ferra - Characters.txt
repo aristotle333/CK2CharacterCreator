@@ -1,1 +1,92 @@
-Hi this is Ferra
+1600 = {
+	name="Silvano"
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=12  martial=5  stewardship=16  intrigue=13  learning=13
+	father=1601	mother=1602
+	742.8.8={birth=yes}
+	790.11.28={death=yes}
+}
+
+1601 = {
+	name="Nolfo"
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=9  martial=12  stewardship=12  intrigue=9  learning=18
+	716.10.8={birth=yes}
+	736.10.4={add_spouse=1602}
+	757.8.17={death=yes}
+}
+
+1602 = {
+	name="Laura"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=12  stewardship=5  intrigue=1  learning=18
+	716.2.11={birth=yes}
+	765.6.16={death=yes}
+}
+
+1603 = {
+	name="Candido"
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=15  martial=10  stewardship=19  intrigue=8  learning=17
+	father=1601	mother=1602
+	746.8.21={birth=yes}
+	769.6.2={add_spouse=1604}
+	797.2.24={death=yes}
+}
+
+1604 = {
+	name="Carola"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=8  martial=9  stewardship=5  intrigue=1  learning=19
+	736.6.19={birth=yes}
+	793.8.19={death=yes}
+}
+
+1605 = {
+	name="Sozzo"
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=11  martial=17  stewardship=6  intrigue=6  learning=19
+	father=1601	mother=1602
+	753.11.24={birth=yes}
+	815.10.16={death=yes}
+}
+
+1606 = {
+	name="Nunzia"
+	female=yes
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=2  martial=16  stewardship=16  intrigue=16  learning=5
+	father=1601	mother=1602
+	744.10.13={birth=yes}
+	790.3.16={death=yes}
+}
+
+1607 = {
+	name="Tomasina"
+	female=yes
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=4  martial=10  stewardship=10  intrigue=18  learning=8
+	father=1601	mother=1602
+	736.1.19={birth=yes}
+	791.5.15={death=yes}
+}
+
+1608 = {
+	name="Eleanor"
+	female=yes
+	dynasty=160
+	culture="italian"	religion="catholic"
+	diplomacy=15  martial=10  stewardship=10  intrigue=14  learning=14
+	father=1601	mother=1602
+	750.8.23={birth=yes}
+	803.3.10={death=yes}
+}
+

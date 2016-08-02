@@ -6,7 +6,6 @@
 #include "provinceSetParser.h"
 #include "culturesParser.h"
 #include "namesParser.h"
-#include "miscellaneousAttributes.h"
 #include "characterCreator.h"
 using std::sort;
 using std::vector;
@@ -24,4 +23,5 @@ LPCTSTR PrintFullPathCultureNames(string& partialPathS);
 // Generates the names list for the specified culture
 void GenerateNamesList(const string& cultureNamesPath);
 
+// Generates the characters
 void CreateCharacterFiles(const string& charactersOutputPath);

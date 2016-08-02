@@ -1,1 +1,80 @@
-Hi this is Dorend
+400 = {
+	name="Marco"
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=5  stewardship=16  intrigue=10  learning=3
+	father=401	mother=402
+	746.12.24={birth=yes}
+	798.10.20={death=yes}
+}
+
+401 = {
+	name="Bernardo"
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=3  martial=11  stewardship=4  intrigue=2  learning=13
+	721.2.22={birth=yes}
+	740.3.22={add_spouse=402}
+	755.9.18={death=yes}
+}
+
+402 = {
+	name="Lucrezia"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=0  stewardship=12  intrigue=20  learning=14
+	719.2.24={birth=yes}
+	757.4.14={death=yes}
+}
+
+403 = {
+	name="Guido"
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=11  martial=16  stewardship=13  intrigue=9  learning=0
+	father=401	mother=402
+	747.4.13={birth=yes}
+	801.8.17={death=yes}
+}
+
+404 = {
+	name="Angel"
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=4  stewardship=9  intrigue=15  learning=7
+	father=401	mother=402
+	749.5.19={birth=yes}
+	811.8.13={death=yes}
+}
+
+405 = {
+	name="Eugenio"
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=6  martial=12  stewardship=12  intrigue=3  learning=3
+	father=401	mother=402
+	749.9.11={birth=yes}
+	769.5.20={add_spouse=406}
+	811.3.9={death=yes}
+}
+
+406 = {
+	name="Ginevra"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=9  stewardship=14  intrigue=17  learning=1
+	743.7.12={birth=yes}
+	799.9.23={death=yes}
+}
+
+407 = {
+	name="Giulia"
+	female=yes
+	dynasty=40
+	culture="italian"	religion="catholic"
+	diplomacy=20  martial=14  stewardship=10  intrigue=13  learning=3
+	father=401	mother=402
+	738.2.16={birth=yes}
+	802.7.25={death=yes}
+}
+

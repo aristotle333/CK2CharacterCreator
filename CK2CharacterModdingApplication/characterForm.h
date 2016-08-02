@@ -1,6 +1,6 @@
 #pragma once
 #include <msclr\marshal_cppstd.h>
-//#include <Shlwapi.h>
+#include <Shlwapi.h>
 #include "driver.h"
 
 namespace CK2CharacterModdingApplication {
@@ -260,7 +260,7 @@ namespace CK2CharacterModdingApplication {
 
         // Generate characters and produce the character files
         CreateCharacterFiles(miscAttr.characterOutputPath);
-
+        outputTextBox->AppendText("Succesfully Generated Characters!\r\n");
     }
 
     private: System::Void ChooseProvinceFolder(System::Object^  sender, System::EventArgs^  e) {
