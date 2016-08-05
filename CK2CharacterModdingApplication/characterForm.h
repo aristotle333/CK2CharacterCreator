@@ -60,6 +60,7 @@ namespace CK2CharacterModdingApplication {
 		/// the contents of this method with the code editor.
 		/// </summary>
 		void InitializeComponent(void) {
+            System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(characterForm::typeid));
             this->outputTextBox = (gcnew System::Windows::Forms::TextBox());
             this->FindProvinces = (gcnew System::Windows::Forms::Button());
             this->provincePathTextBox = (gcnew System::Windows::Forms::TextBox());
@@ -203,6 +204,7 @@ namespace CK2CharacterModdingApplication {
             this->ClientSize = System::Drawing::Size(1894, 1009);
             this->Controls->Add(this->UpperGroup);
             this->Controls->Add(this->outputTextBox);
+            this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
             this->Name = L"characterForm";
             this->Text = L"CK2 Character Creator";
             this->UpperGroup->ResumeLayout(false);

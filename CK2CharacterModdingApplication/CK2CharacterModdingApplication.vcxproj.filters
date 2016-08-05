@@ -19,6 +19,9 @@
     <Filter Include="Header Files\ParserHeaders">
       <UniqueIdentifier>{dfee679e-87dd-4629-bc5e-4473acf7ffd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MarkdownFiles">
+      <UniqueIdentifier>{ebb275a5-4b36-43cb-b215-cada4107038d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="characterForm.cpp">
@@ -77,6 +80,9 @@
     <ClInclude Include="Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="characterForm.resx">
@@ -87,5 +93,23 @@
     <Text Include="settings.txt">
       <Filter>Source Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CK2CharacterModdingApplication.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CharacterCreator.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>Source Files\MarkdownFiles</Filter>
+    </None>
+    <None Include="..\LICENSE.md">
+      <Filter>Source Files\MarkdownFiles</Filter>
+    </None>
   </ItemGroup>
 </Project>

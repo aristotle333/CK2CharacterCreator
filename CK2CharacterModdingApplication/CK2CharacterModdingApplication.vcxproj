@@ -151,6 +151,7 @@
     <ClInclude Include="miscellaneousAttributes.h" />
     <ClInclude Include="namesParser.h" />
     <ClInclude Include="provinceSetParser.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="settingsAttributes.h" />
     <ClInclude Include="settingsParser.h" />
     <ClInclude Include="Utils.h" />
@@ -162,6 +163,16 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="settings.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CK2CharacterModdingApplication.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CharacterCreator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE.md" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
