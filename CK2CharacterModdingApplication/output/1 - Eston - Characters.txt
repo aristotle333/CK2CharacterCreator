@@ -1,91 +1,80 @@
 100 = {
-	name="Umberto"
+	name="Callisto"
 	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=10  martial=3  stewardship=17  intrigue=7  learning=7
+	diplomacy=0  martial=14  stewardship=16  intrigue=10  learning=6
 	father=101	mother=102
-	750.1.19={birth=yes}
-	801.12.18={death=yes}
+	752.10.19={birth=yes}
+	815.9.24={death=yes}
 }
 
 101 = {
-	name="Mastino"
+	name="Demetrius"
 	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=10  martial=10  stewardship=9  intrigue=17  learning=17
-	725.12.8={birth=yes}
-	744.7.23={add_spouse=102}
-	758.1.8={death=yes}
+	diplomacy=10  martial=11  stewardship=16  intrigue=12  learning=7
+	715.1.1={birth=yes}
+	733.2.22={add_spouse=102}
+	762.8.18={death=yes}
 }
 
 102 = {
-	name="Micaela"
+	name="Maddalena"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=14  martial=9  stewardship=19  intrigue=3  learning=8
-	725.12.16={birth=yes}
-	768.9.18={death=yes}
+	diplomacy=19  martial=16  stewardship=7  intrigue=6  learning=5
+	714.1.20={birth=yes}
+	760.7.12={death=yes}
 }
 
 103 = {
-	name="Robert"
+	name="Gabriele"
 	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=6  martial=5  stewardship=17  intrigue=4  learning=13
+	diplomacy=16  martial=14  stewardship=5  intrigue=6  learning=5
 	father=101	mother=102
-	751.4.21={birth=yes}
-	813.6.22={death=yes}
+	753.3.17={birth=yes}
+	812.11.3={death=yes}
 }
 
 104 = {
-	name="Virginio"
+	name="David"
 	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=5  martial=1  stewardship=12  intrigue=11  learning=8
+	diplomacy=11  martial=0  stewardship=16  intrigue=14  learning=15
 	father=101	mother=102
-	751.7.22={birth=yes}
-	767.3.5={add_spouse=105}
-	804.12.28={death=yes}
+	753.9.1={birth=yes}
+	798.3.21={death=yes}
 }
 
 105 = {
-	name="Abelina"
-	female=yes
+	name="Merigo"
+	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=6  martial=10  stewardship=6  intrigue=4  learning=11
-	749.11.28={birth=yes}
-	796.5.21={death=yes}
+	diplomacy=11  martial=4  stewardship=14  intrigue=3  learning=8
+	father=101	mother=102
+	753.12.14={birth=yes}
+	769.10.5={add_spouse=106}
+	808.7.5={death=yes}
 }
 
 106 = {
-	name="Patrizio"
-	dynasty=10
+	name="Catherine"
+	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=17  martial=4  stewardship=8  intrigue=4  learning=15
-	father=101	mother=102
-	752.1.25={birth=yes}
-	806.4.18={death=yes}
+	diplomacy=18  martial=9  stewardship=18  intrigue=14  learning=2
+	737.2.17={birth=yes}
+	802.7.8={death=yes}
 }
 
 107 = {
-	name="Alda"
+	name="Giuditta"
 	female=yes
 	dynasty=10
 	culture="italian"	religion="catholic"
-	diplomacy=14  martial=20  stewardship=8  intrigue=2  learning=15
+	diplomacy=11  martial=7  stewardship=13  intrigue=7  learning=12
 	father=101	mother=102
-	753.12.14={birth=yes}
-	808.9.12={death=yes}
-}
-
-108 = {
-	name="Adelia"
-	female=yes
-	dynasty=10
-	culture="italian"	religion="catholic"
-	diplomacy=7  martial=3  stewardship=9  intrigue=14  learning=11
-	father=101	mother=102
-	742.12.17={birth=yes}
-	792.1.16={death=yes}
+	752.2.10={birth=yes}
+	799.10.12={death=yes}
 }
 

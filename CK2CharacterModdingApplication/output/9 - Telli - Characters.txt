@@ -1,82 +1,62 @@
 900 = {
-	name="Bassiano"
+	name="Bertoldo"
 	dynasty=90
 	culture="italian"	religion="catholic"
-	diplomacy=7  martial=5  stewardship=16  intrigue=20  learning=3
+	diplomacy=4  martial=0  stewardship=20  intrigue=12  learning=13
 	father=901	mother=902
-	752.7.4={birth=yes}
-	815.8.18={death=yes}
+	736.2.3={birth=yes}
+	788.12.13={death=yes}
 }
 
 901 = {
-	name="David"
+	name="Guigliadore"
 	dynasty=90
 	culture="italian"	religion="catholic"
-	diplomacy=3  martial=12  stewardship=20  intrigue=13  learning=16
-	721.4.20={birth=yes}
-	746.2.7={add_spouse=902}
-	756.5.1={death=yes}
+	diplomacy=13  martial=17  stewardship=19  intrigue=0  learning=14
+	712.7.19={birth=yes}
+	732.5.28={add_spouse=902}
+	767.4.19={death=yes}
 }
 
 902 = {
-	name="Aloisia"
+	name="Maddalena"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=17  martial=13  stewardship=13  intrigue=5  learning=9
-	718.11.5={birth=yes}
-	754.8.2={death=yes}
+	diplomacy=2  martial=13  stewardship=9  intrigue=9  learning=5
+	711.3.12={birth=yes}
+	767.3.24={death=yes}
 }
 
 903 = {
-	name="Lorenzo"
+	name="Sofia"
+	female=yes
 	dynasty=90
 	culture="italian"	religion="catholic"
-	diplomacy=2  martial=13  stewardship=18  intrigue=0  learning=7
+	diplomacy=12  martial=6  stewardship=9  intrigue=19  learning=7
 	father=901	mother=902
-	753.12.7={birth=yes}
-	769.12.13={add_spouse=904}
-	805.3.26={death=yes}
+	739.4.15={birth=yes}
+	797.8.4={death=yes}
 }
 
 904 = {
-	name="Valentina"
+	name="Eudossia"
 	female=yes
+	dynasty=90
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=2  stewardship=17  intrigue=6  learning=18
-	746.5.23={birth=yes}
-	803.12.1={death=yes}
+	diplomacy=1  martial=14  stewardship=4  intrigue=14  learning=1
+	father=901	mother=902
+	748.5.21={birth=yes}
+	799.8.25={death=yes}
 }
 
 905 = {
-	name="Adelaida"
+	name="Joscella"
 	female=yes
 	dynasty=90
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=15  stewardship=8  intrigue=15  learning=12
+	diplomacy=17  martial=14  stewardship=16  intrigue=7  learning=16
 	father=901	mother=902
-	756.6.10={birth=yes}
-	819.9.17={death=yes}
-}
-
-906 = {
-	name="Brunilde"
-	female=yes
-	dynasty=90
-	culture="italian"	religion="catholic"
-	diplomacy=20  martial=3  stewardship=2  intrigue=3  learning=16
-	father=901	mother=902
-	757.11.12={birth=yes}
-	820.7.25={death=yes}
-}
-
-907 = {
-	name="Ausilia"
-	female=yes
-	dynasty=90
-	culture="italian"	religion="catholic"
-	diplomacy=0  martial=13  stewardship=11  intrigue=6  learning=6
-	father=901	mother=902
-	756.5.18={birth=yes}
-	814.2.20={death=yes}
+	750.7.6={birth=yes}
+	810.4.6={death=yes}
 }
 

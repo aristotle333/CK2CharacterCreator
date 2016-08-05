@@ -1,91 +1,61 @@
 1400 = {
-	name="Emmanuele"
+	name="Cataldo"
 	dynasty=140
 	culture="italian"	religion="catholic"
-	diplomacy=8  martial=3  stewardship=10  intrigue=0  learning=17
+	diplomacy=14  martial=18  stewardship=3  intrigue=4  learning=6
 	father=1401	mother=1402
-	739.3.21={birth=yes}
-	790.10.4={death=yes}
+	750.1.2={birth=yes}
+	797.7.24={death=yes}
 }
 
 1401 = {
-	name="Pio"
+	name="Henry"
 	dynasty=140
 	culture="italian"	religion="catholic"
-	diplomacy=16  martial=16  stewardship=7  intrigue=11  learning=19
-	704.7.5={birth=yes}
-	734.3.25={add_spouse=1402}
-	740.2.8={death=yes}
+	diplomacy=4  martial=4  stewardship=14  intrigue=6  learning=15
+	712.7.22={birth=yes}
+	731.10.16={add_spouse=1402}
+	766.5.12={death=yes}
 }
 
 1402 = {
-	name="Carla"
+	name="Eleanor"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=6  martial=7  stewardship=15  intrigue=11  learning=14
-	705.12.17={birth=yes}
-	763.5.11={death=yes}
+	diplomacy=14  martial=14  stewardship=7  intrigue=1  learning=0
+	711.9.18={birth=yes}
+	759.9.13={death=yes}
 }
 
 1403 = {
-	name="Giolio"
+	name="Humbert"
 	dynasty=140
 	culture="italian"	religion="catholic"
-	diplomacy=7  martial=13  stewardship=2  intrigue=18  learning=9
+	diplomacy=1  martial=0  stewardship=14  intrigue=0  learning=19
 	father=1401	mother=1402
-	742.10.5={birth=yes}
-	764.9.27={add_spouse=1404}
-	788.1.14={death=yes}
+	751.9.16={birth=yes}
+	805.7.11={death=yes}
 }
 
 1404 = {
-	name="Renata"
+	name="Helen"
 	female=yes
+	dynasty=140
 	culture="italian"	religion="catholic"
-	diplomacy=14  martial=7  stewardship=10  intrigue=20  learning=19
-	744.5.21={birth=yes}
-	789.3.13={death=yes}
+	diplomacy=5  martial=18  stewardship=18  intrigue=17  learning=9
+	father=1401	mother=1402
+	738.6.7={birth=yes}
+	785.10.17={death=yes}
 }
 
 1405 = {
-	name="Ezzelino"
-	dynasty=140
-	culture="italian"	religion="catholic"
-	diplomacy=2  martial=13  stewardship=7  intrigue=3  learning=8
-	father=1401	mother=1402
-	743.12.23={birth=yes}
-	769.6.1={add_spouse=1406}
-	804.8.12={death=yes}
-}
-
-1406 = {
-	name="Cecilia"
-	female=yes
-	culture="italian"	religion="catholic"
-	diplomacy=13  martial=14  stewardship=6  intrigue=2  learning=10
-	733.8.2={birth=yes}
-	781.11.23={death=yes}
-}
-
-1407 = {
-	name="Eleonora"
+	name="Lodovica"
 	female=yes
 	dynasty=140
 	culture="italian"	religion="catholic"
-	diplomacy=0  martial=12  stewardship=13  intrigue=11  learning=13
+	diplomacy=7  martial=20  stewardship=2  intrigue=1  learning=20
 	father=1401	mother=1402
-	733.12.14={birth=yes}
-	784.7.16={death=yes}
-}
-
-1408 = {
-	name="Violante"
-	female=yes
-	dynasty=140
-	culture="italian"	religion="catholic"
-	diplomacy=13  martial=16  stewardship=3  intrigue=2  learning=16
-	father=1401	mother=1402
-	741.2.1={birth=yes}
-	796.9.18={death=yes}
+	738.7.2={birth=yes}
+	801.5.3={death=yes}
 }
 

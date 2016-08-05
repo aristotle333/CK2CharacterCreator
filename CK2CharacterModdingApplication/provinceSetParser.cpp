@@ -45,9 +45,4 @@ vector<string> readProvincesDirectory(const string& directory) {
         res.push_back(std::to_string(provID) + " " + provincesSet[provID]);
     }
     return res;
-
-    //vector<int> res(provincesSet.begin(), provincesSet.end());
-    //// Sort the vector to look nicely in the output window
-    //std::sort(res.begin(), res.end());
-    //return res;
 }

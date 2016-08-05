@@ -1,60 +1,72 @@
 1200 = {
-	name="Attilio"
+	name="Giacomo"
 	dynasty=120
 	culture="italian"	religion="catholic"
-	diplomacy=15  martial=1  stewardship=20  intrigue=14  learning=11
+	diplomacy=7  martial=14  stewardship=11  intrigue=5  learning=10
 	father=1201	mother=1202
-	736.11.20={birth=yes}
-	790.8.20={death=yes}
+	750.4.13={birth=yes}
+	811.9.28={death=yes}
 }
 
 1201 = {
-	name="Rolando"
+	name="Benedetto"
 	dynasty=120
 	culture="italian"	religion="catholic"
-	diplomacy=13  martial=4  stewardship=11  intrigue=2  learning=4
-	704.4.26={birth=yes}
-	734.12.2={add_spouse=1202}
-	753.4.16={death=yes}
+	diplomacy=15  martial=2  stewardship=18  intrigue=17  learning=15
+	715.7.9={birth=yes}
+	734.8.16={add_spouse=1202}
+	755.10.18={death=yes}
 }
 
 1202 = {
-	name="Aurelia"
+	name="Flavia"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=20  martial=6  stewardship=18  intrigue=14  learning=3
-	707.9.28={birth=yes}
-	759.6.8={death=yes}
+	diplomacy=18  martial=0  stewardship=12  intrigue=19  learning=0
+	714.4.28={birth=yes}
+	756.11.12={death=yes}
 }
 
 1203 = {
-	name="Luigi"
+	name="Konrad"
 	dynasty=120
 	culture="italian"	religion="catholic"
-	diplomacy=18  martial=7  stewardship=15  intrigue=11  learning=2
+	diplomacy=20  martial=16  stewardship=0  intrigue=7  learning=7
 	father=1201	mother=1202
-	745.9.7={birth=yes}
-	761.8.24={add_spouse=1204}
-	802.10.11={death=yes}
+	753.2.16={birth=yes}
+	816.9.12={death=yes}
 }
 
 1204 = {
-	name="Clara"
-	female=yes
-	culture="italian"	religion="catholic"
-	diplomacy=4  martial=10  stewardship=18  intrigue=20  learning=18
-	729.7.8={birth=yes}
-	783.12.1={death=yes}
-}
-
-1205 = {
-	name="Margherita"
+	name="Benedetta"
 	female=yes
 	dynasty=120
 	culture="italian"	religion="catholic"
-	diplomacy=4  martial=19  stewardship=18  intrigue=14  learning=11
+	diplomacy=8  martial=13  stewardship=10  intrigue=15  learning=13
 	father=1201	mother=1202
-	736.4.20={birth=yes}
-	781.12.24={death=yes}
+	751.8.20={birth=yes}
+	809.7.21={death=yes}
+}
+
+1205 = {
+	name="Livia"
+	female=yes
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=19  martial=13  stewardship=2  intrigue=11  learning=19
+	father=1201	mother=1202
+	752.7.5={birth=yes}
+	807.11.5={death=yes}
+}
+
+1206 = {
+	name="Brunilde"
+	female=yes
+	dynasty=120
+	culture="italian"	religion="catholic"
+	diplomacy=10  martial=18  stewardship=16  intrigue=4  learning=19
+	father=1201	mother=1202
+	748.7.10={birth=yes}
+	807.5.12={death=yes}
 }
 

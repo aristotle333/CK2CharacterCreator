@@ -1,80 +1,90 @@
 500 = {
-	name="Alarico"
+	name="Benedetto"
 	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=1  martial=16  stewardship=17  intrigue=7  learning=20
+	diplomacy=3  martial=18  stewardship=3  intrigue=10  learning=4
 	father=501	mother=502
-	751.5.22={birth=yes}
-	798.8.27={death=yes}
+	739.11.8={birth=yes}
+	796.12.28={death=yes}
 }
 
 501 = {
-	name="Pericle"
+	name="Nicola"
 	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=17  martial=5  stewardship=13  intrigue=0  learning=5
-	721.9.20={birth=yes}
-	743.2.2={add_spouse=502}
-	754.8.5={death=yes}
+	diplomacy=1  martial=13  stewardship=9  intrigue=1  learning=4
+	712.4.16={birth=yes}
+	732.10.21={add_spouse=502}
+	762.2.13={death=yes}
 }
 
 502 = {
-	name="Stephania"
+	name="Helen"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=6  martial=7  stewardship=5  intrigue=17  learning=1
-	724.4.7={birth=yes}
-	765.4.25={death=yes}
+	diplomacy=17  martial=18  stewardship=3  intrigue=14  learning=18
+	713.8.7={birth=yes}
+	754.5.4={death=yes}
 }
 
 503 = {
-	name="Ruggiero"
+	name="Ciuccio"
 	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=1  martial=15  stewardship=4  intrigue=10  learning=5
+	diplomacy=1  martial=12  stewardship=5  intrigue=0  learning=1
 	father=501	mother=502
-	752.3.1={birth=yes}
-	804.6.12={death=yes}
+	751.1.20={birth=yes}
+	768.7.20={add_spouse=504}
+	808.12.10={death=yes}
 }
 
 504 = {
-	name="Serafino"
-	dynasty=50
+	name="Ippolita"
+	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=9  martial=11  stewardship=18  intrigue=17  learning=15
-	father=501	mother=502
-	753.12.26={birth=yes}
-	810.11.8={death=yes}
+	diplomacy=10  martial=8  stewardship=7  intrigue=15  learning=1
+	742.12.4={birth=yes}
+	803.12.22={death=yes}
 }
 
 505 = {
-	name="Bassiano"
+	name="Omero"
 	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=5  martial=11  stewardship=8  intrigue=14  learning=11
+	diplomacy=5  martial=12  stewardship=4  intrigue=18  learning=5
 	father=501	mother=502
-	752.3.25={birth=yes}
-	769.8.27={add_spouse=506}
-	810.2.22={death=yes}
+	746.7.26={birth=yes}
+	795.7.6={death=yes}
 }
 
 506 = {
-	name="Isabella"
-	female=yes
+	name="Valentino"
+	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=4  martial=6  stewardship=10  intrigue=10  learning=2
-	745.7.12={birth=yes}
-	793.11.13={death=yes}
+	diplomacy=20  martial=10  stewardship=19  intrigue=7  learning=6
+	father=501	mother=502
+	740.12.7={birth=yes}
+	759.3.28={add_spouse=507}
+	792.9.22={death=yes}
 }
 
 507 = {
-	name="Constanza"
+	name="Agostina"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=5  martial=6  stewardship=11  intrigue=2  learning=1
+	740.10.5={birth=yes}
+	801.3.16={death=yes}
+}
+
+508 = {
+	name="Giuditta"
 	female=yes
 	dynasty=50
 	culture="italian"	religion="catholic"
-	diplomacy=20  martial=9  stewardship=11  intrigue=6  learning=15
+	diplomacy=9  martial=4  stewardship=7  intrigue=10  learning=20
 	father=501	mother=502
-	743.3.15={birth=yes}
-	797.6.5={death=yes}
+	744.12.14={birth=yes}
+	797.2.9={death=yes}
 }
 

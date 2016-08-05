@@ -1,92 +1,40 @@
 1000 = {
-	name="Rodolfo"
+	name="Ettore"
 	dynasty=100
 	culture="italian"	religion="catholic"
-	diplomacy=8  martial=2  stewardship=3  intrigue=12  learning=10
+	diplomacy=7  martial=9  stewardship=4  intrigue=17  learning=17
 	father=1001	mother=1002
-	739.12.12={birth=yes}
-	795.12.27={death=yes}
+	738.7.23={birth=yes}
+	790.6.26={death=yes}
 }
 
 1001 = {
-	name="Elio"
+	name="Adelmo"
 	dynasty=100
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=0  stewardship=6  intrigue=14  learning=12
-	712.11.1={birth=yes}
-	737.12.8={add_spouse=1002}
-	744.10.7={death=yes}
+	diplomacy=3  martial=9  stewardship=12  intrigue=4  learning=6
+	708.7.22={birth=yes}
+	734.6.10={add_spouse=1002}
+	759.12.11={death=yes}
 }
 
 1002 = {
-	name="Matilda"
+	name="Albina"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=12  martial=0  stewardship=11  intrigue=13  learning=10
-	711.7.12={birth=yes}
-	741.12.15={death=yes}
+	diplomacy=6  martial=10  stewardship=4  intrigue=12  learning=10
+	709.5.1={birth=yes}
+	758.6.16={death=yes}
 }
 
 1003 = {
-	name="Vincent"
-	dynasty=100
-	culture="italian"	religion="catholic"
-	diplomacy=12  martial=8  stewardship=14  intrigue=10  learning=11
-	father=1001	mother=1002
-	742.5.28={birth=yes}
-	804.3.6={death=yes}
-}
-
-1004 = {
-	name="Gentile"
-	dynasty=100
-	culture="italian"	religion="catholic"
-	diplomacy=15  martial=16  stewardship=14  intrigue=14  learning=3
-	father=1001	mother=1002
-	742.11.12={birth=yes}
-	795.8.11={death=yes}
-}
-
-1005 = {
-	name="Cataldo"
-	dynasty=100
-	culture="italian"	religion="catholic"
-	diplomacy=13  martial=12  stewardship=1  intrigue=15  learning=18
-	father=1001	mother=1002
-	748.3.26={birth=yes}
-	793.9.20={death=yes}
-}
-
-1006 = {
-	name="Constanza"
+	name="Flora"
 	female=yes
 	dynasty=100
 	culture="italian"	religion="catholic"
-	diplomacy=12  martial=10  stewardship=6  intrigue=11  learning=17
+	diplomacy=20  martial=10  stewardship=5  intrigue=14  learning=20
 	father=1001	mother=1002
-	735.4.7={birth=yes}
-	791.12.12={death=yes}
-}
-
-1007 = {
-	name="Elena"
-	female=yes
-	dynasty=100
-	culture="italian"	religion="catholic"
-	diplomacy=19  martial=12  stewardship=8  intrigue=5  learning=18
-	father=1001	mother=1002
-	737.1.10={birth=yes}
-	793.2.26={death=yes}
-}
-
-1008 = {
-	name="Berta"
-	female=yes
-	dynasty=100
-	culture="italian"	religion="catholic"
-	diplomacy=3  martial=8  stewardship=17  intrigue=7  learning=13
-	father=1001	mother=1002
-	747.1.27={birth=yes}
-	793.6.27={death=yes}
+	743.9.3={birth=yes}
+	801.1.18={death=yes}
 }
 

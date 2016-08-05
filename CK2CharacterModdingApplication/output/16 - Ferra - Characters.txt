@@ -1,92 +1,72 @@
 1600 = {
-	name="Silvano"
+	name="Gabriele"
 	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=12  martial=5  stewardship=16  intrigue=13  learning=13
+	diplomacy=20  martial=17  stewardship=7  intrigue=1  learning=4
 	father=1601	mother=1602
-	742.8.8={birth=yes}
-	790.11.28={death=yes}
+	745.5.25={birth=yes}
+	796.2.27={death=yes}
 }
 
 1601 = {
-	name="Nolfo"
+	name="Pagano"
 	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=9  martial=12  stewardship=12  intrigue=9  learning=18
-	716.10.8={birth=yes}
-	736.10.4={add_spouse=1602}
-	757.8.17={death=yes}
+	diplomacy=7  martial=4  stewardship=9  intrigue=15  learning=7
+	709.9.25={birth=yes}
+	731.6.14={add_spouse=1602}
+	765.11.25={death=yes}
 }
 
 1602 = {
-	name="Laura"
+	name="Flora"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=18  martial=12  stewardship=5  intrigue=1  learning=18
-	716.2.11={birth=yes}
-	765.6.16={death=yes}
+	diplomacy=12  martial=18  stewardship=0  intrigue=8  learning=10
+	710.9.4={birth=yes}
+	758.2.9={death=yes}
 }
 
 1603 = {
-	name="Candido"
+	name="Marcus"
 	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=15  martial=10  stewardship=19  intrigue=8  learning=17
+	diplomacy=3  martial=17  stewardship=7  intrigue=5  learning=13
 	father=1601	mother=1602
-	746.8.21={birth=yes}
-	769.6.2={add_spouse=1604}
-	797.2.24={death=yes}
+	750.10.28={birth=yes}
+	806.11.20={death=yes}
 }
 
 1604 = {
-	name="Carola"
+	name="Ermenegilda"
 	female=yes
+	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=8  martial=9  stewardship=5  intrigue=1  learning=19
-	736.6.19={birth=yes}
-	793.8.19={death=yes}
+	diplomacy=17  martial=5  stewardship=10  intrigue=20  learning=12
+	father=1601	mother=1602
+	748.2.11={birth=yes}
+	798.9.5={death=yes}
 }
 
 1605 = {
-	name="Sozzo"
+	name="Marietta"
+	female=yes
 	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=11  martial=17  stewardship=6  intrigue=6  learning=19
+	diplomacy=19  martial=19  stewardship=3  intrigue=10  learning=1
 	father=1601	mother=1602
-	753.11.24={birth=yes}
-	815.10.16={death=yes}
+	748.2.10={birth=yes}
+	805.11.13={death=yes}
 }
 
 1606 = {
-	name="Nunzia"
+	name="Lucia"
 	female=yes
 	dynasty=160
 	culture="italian"	religion="catholic"
-	diplomacy=2  martial=16  stewardship=16  intrigue=16  learning=5
+	diplomacy=11  martial=3  stewardship=2  intrigue=0  learning=10
 	father=1601	mother=1602
-	744.10.13={birth=yes}
-	790.3.16={death=yes}
-}
-
-1607 = {
-	name="Tomasina"
-	female=yes
-	dynasty=160
-	culture="italian"	religion="catholic"
-	diplomacy=4  martial=10  stewardship=10  intrigue=18  learning=8
-	father=1601	mother=1602
-	736.1.19={birth=yes}
-	791.5.15={death=yes}
-}
-
-1608 = {
-	name="Eleanor"
-	female=yes
-	dynasty=160
-	culture="italian"	religion="catholic"
-	diplomacy=15  martial=10  stewardship=10  intrigue=14  learning=14
-	father=1601	mother=1602
-	750.8.23={birth=yes}
-	803.3.10={death=yes}
+	743.5.5={birth=yes}
+	792.5.26={death=yes}
 }
 

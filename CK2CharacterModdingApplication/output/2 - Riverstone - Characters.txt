@@ -1,82 +1,89 @@
 200 = {
-	name="Sinibaldo"
+	name="Eduardo"
 	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=0  martial=0  stewardship=17  intrigue=1  learning=17
+	diplomacy=16  martial=12  stewardship=18  intrigue=5  learning=8
 	father=201	mother=202
-	737.2.26={birth=yes}
-	786.3.18={death=yes}
+	744.6.9={birth=yes}
+	796.8.11={death=yes}
 }
 
 201 = {
-	name="Baldassarre"
+	name="Gastone"
 	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=5  stewardship=16  intrigue=17  learning=11
-	711.10.6={birth=yes}
-	731.5.13={add_spouse=202}
-	740.12.21={death=yes}
+	diplomacy=3  martial=2  stewardship=11  intrigue=4  learning=20
+	712.4.4={birth=yes}
+	734.6.1={add_spouse=202}
+	764.5.21={death=yes}
 }
 
 202 = {
-	name="Fosca"
+	name="Isabella"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=6  stewardship=2  intrigue=6  learning=20
-	704.8.2={birth=yes}
-	739.8.9={death=yes}
+	diplomacy=12  martial=20  stewardship=9  intrigue=0  learning=15
+	712.8.1={birth=yes}
+	756.1.24={death=yes}
 }
 
 203 = {
-	name="Salinguerra"
+	name="Augusto"
 	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=20  martial=13  stewardship=17  intrigue=6  learning=15
+	diplomacy=20  martial=11  stewardship=20  intrigue=7  learning=15
 	father=201	mother=202
-	746.7.16={birth=yes}
-	768.6.4={add_spouse=204}
-	797.5.26={death=yes}
+	747.6.13={birth=yes}
+	768.9.11={add_spouse=204}
+	812.2.15={death=yes}
 }
 
 204 = {
-	name="Caterina"
+	name="Candida"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=9  martial=7  stewardship=7  intrigue=7  learning=14
-	735.10.7={birth=yes}
-	798.6.8={death=yes}
+	diplomacy=15  martial=15  stewardship=4  intrigue=1  learning=15
+	738.6.6={birth=yes}
+	797.1.1={death=yes}
 }
 
 205 = {
-	name="Anastasia"
-	female=yes
+	name="Matteo"
 	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=15  martial=13  stewardship=14  intrigue=19  learning=3
+	diplomacy=7  martial=18  stewardship=15  intrigue=15  learning=15
 	father=201	mother=202
-	742.1.14={birth=yes}
-	799.12.4={death=yes}
+	747.9.17={birth=yes}
+	763.9.23={add_spouse=206}
+	802.9.11={death=yes}
 }
 
 206 = {
-	name="Bonne"
+	name="Adalgisa"
 	female=yes
-	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=18  martial=3  stewardship=2  intrigue=5  learning=15
-	father=201	mother=202
-	733.5.8={birth=yes}
-	797.11.2={death=yes}
+	diplomacy=5  martial=7  stewardship=4  intrigue=0  learning=18
+	747.1.5={birth=yes}
+	808.2.21={death=yes}
 }
 
 207 = {
-	name="Mariana"
-	female=yes
+	name="Andrea"
 	dynasty=20
 	culture="italian"	religion="catholic"
-	diplomacy=9  martial=15  stewardship=19  intrigue=8  learning=15
+	diplomacy=14  martial=11  stewardship=16  intrigue=17  learning=7
 	father=201	mother=202
-	740.1.8={birth=yes}
-	797.5.21={death=yes}
+	750.9.8={birth=yes}
+	766.7.8={add_spouse=208}
+	801.12.9={death=yes}
+}
+
+208 = {
+	name="Fortunata"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=8  martial=9  stewardship=5  intrigue=16  learning=11
+	742.11.27={birth=yes}
+	796.11.8={death=yes}
 }
 

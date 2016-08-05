@@ -1,102 +1,71 @@
 1300 = {
-	name="Cosimo"
+	name="Alamanno"
 	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=16  martial=11  stewardship=11  intrigue=13  learning=20
+	diplomacy=1  martial=9  stewardship=10  intrigue=8  learning=3
 	father=1301	mother=1302
-	741.11.16={birth=yes}
-	803.1.2={death=yes}
+	745.3.1={birth=yes}
+	796.7.11={death=yes}
 }
 
 1301 = {
-	name="Gastone"
+	name="Matteo"
 	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=19  martial=4  stewardship=0  intrigue=0  learning=18
-	716.10.16={birth=yes}
-	736.3.2={add_spouse=1302}
-	745.2.24={death=yes}
+	diplomacy=4  martial=10  stewardship=1  intrigue=8  learning=3
+	713.11.26={birth=yes}
+	732.2.26={add_spouse=1302}
+	755.2.26={death=yes}
 }
 
 1302 = {
-	name="Eleonora"
+	name="Froizza"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=5  martial=6  stewardship=11  intrigue=7  learning=20
-	715.4.24={birth=yes}
-	759.12.2={death=yes}
+	diplomacy=2  martial=12  stewardship=16  intrigue=15  learning=17
+	714.6.23={birth=yes}
+	756.6.18={death=yes}
 }
 
 1303 = {
-	name="Tibaldo"
+	name="Jacob"
 	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=1  martial=8  stewardship=0  intrigue=7  learning=14
+	diplomacy=11  martial=15  stewardship=0  intrigue=4  learning=3
 	father=1301	mother=1302
-	753.9.8={birth=yes}
-	769.12.2={add_spouse=1304}
-	815.7.9={death=yes}
+	749.10.19={birth=yes}
+	812.9.23={death=yes}
 }
 
 1304 = {
-	name="Leonide"
-	female=yes
+	name="Konrad"
+	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=9  martial=2  stewardship=13  intrigue=16  learning=8
-	748.3.26={birth=yes}
-	802.3.26={death=yes}
+	diplomacy=9  martial=13  stewardship=5  intrigue=13  learning=12
+	father=1301	mother=1302
+	753.1.7={birth=yes}
+	803.6.19={death=yes}
 }
 
 1305 = {
-	name="Torgodorio"
+	name="Alda"
+	female=yes
 	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=2  martial=12  stewardship=8  intrigue=16  learning=13
+	diplomacy=20  martial=9  stewardship=10  intrigue=8  learning=5
 	father=1301	mother=1302
-	746.5.26={birth=yes}
-	765.7.11={add_spouse=1306}
-	807.6.24={death=yes}
+	739.9.23={birth=yes}
+	796.7.9={death=yes}
 }
 
 1306 = {
-	name="Laura"
-	female=yes
-	culture="italian"	religion="catholic"
-	diplomacy=14  martial=13  stewardship=12  intrigue=12  learning=16
-	740.10.2={birth=yes}
-	787.11.3={death=yes}
-}
-
-1307 = {
-	name="Flora"
+	name="Anna"
 	female=yes
 	dynasty=130
 	culture="italian"	religion="catholic"
-	diplomacy=13  martial=18  stewardship=18  intrigue=10  learning=13
+	diplomacy=7  martial=16  stewardship=12  intrigue=13  learning=2
 	father=1301	mother=1302
-	742.2.18={birth=yes}
-	789.10.28={death=yes}
-}
-
-1308 = {
-	name="Elisabetta"
-	female=yes
-	dynasty=130
-	culture="italian"	religion="catholic"
-	diplomacy=0  martial=15  stewardship=2  intrigue=0  learning=0
-	father=1301	mother=1302
-	747.12.5={birth=yes}
-	793.2.11={death=yes}
-}
-
-1309 = {
-	name="Mariana"
-	female=yes
-	dynasty=130
-	culture="italian"	religion="catholic"
-	diplomacy=6  martial=2  stewardship=2  intrigue=8  learning=6
-	father=1301	mother=1302
-	740.7.28={birth=yes}
-	791.9.18={death=yes}
+	750.2.21={birth=yes}
+	815.10.26={death=yes}
 }
 

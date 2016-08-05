@@ -1,40 +1,80 @@
 800 = {
-	name="Pandolfo"
+	name="Peter"
 	dynasty=80
 	culture="italian"	religion="catholic"
-	diplomacy=18  martial=3  stewardship=7  intrigue=18  learning=11
+	diplomacy=6  martial=0  stewardship=10  intrigue=20  learning=13
 	father=801	mother=802
-	747.12.23={birth=yes}
-	801.4.6={death=yes}
+	740.1.3={birth=yes}
+	792.8.24={death=yes}
 }
 
 801 = {
-	name="Salinguerra"
+	name="Ennio"
 	dynasty=80
 	culture="italian"	religion="catholic"
-	diplomacy=17  martial=7  stewardship=6  intrigue=8  learning=4
-	714.8.14={birth=yes}
-	732.5.25={add_spouse=802}
-	768.1.23={death=yes}
+	diplomacy=14  martial=14  stewardship=14  intrigue=0  learning=3
+	712.7.13={birth=yes}
+	731.6.17={add_spouse=802}
+	755.10.5={death=yes}
 }
 
 802 = {
-	name="Cecilia"
+	name="Camilla"
 	female=yes
 	culture="italian"	religion="catholic"
-	diplomacy=14  martial=6  stewardship=10  intrigue=0  learning=16
-	714.8.4={birth=yes}
-	761.5.9={death=yes}
+	diplomacy=15  martial=15  stewardship=20  intrigue=15  learning=3
+	712.4.8={birth=yes}
+	763.12.28={death=yes}
 }
 
 803 = {
-	name="Matilda"
+	name="Alessio"
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=13  martial=17  stewardship=17  intrigue=3  learning=18
+	father=801	mother=802
+	753.3.12={birth=yes}
+	812.12.21={death=yes}
+}
+
+804 = {
+	name="Andrea"
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=18  martial=11  stewardship=20  intrigue=0  learning=17
+	father=801	mother=802
+	742.12.12={birth=yes}
+	768.7.26={add_spouse=805}
+	807.7.26={death=yes}
+}
+
+805 = {
+	name="Clara"
+	female=yes
+	culture="italian"	religion="catholic"
+	diplomacy=1  martial=19  stewardship=13  intrigue=3  learning=10
+	740.2.7={birth=yes}
+	797.6.20={death=yes}
+}
+
+806 = {
+	name="Enzio"
+	dynasty=80
+	culture="italian"	religion="catholic"
+	diplomacy=17  martial=3  stewardship=2  intrigue=9  learning=12
+	father=801	mother=802
+	743.6.27={birth=yes}
+	805.4.9={death=yes}
+}
+
+807 = {
+	name="Francesca"
 	female=yes
 	dynasty=80
 	culture="italian"	religion="catholic"
-	diplomacy=3  martial=16  stewardship=16  intrigue=6  learning=13
+	diplomacy=17  martial=8  stewardship=1  intrigue=18  learning=0
 	father=801	mother=802
-	749.3.26={birth=yes}
-	809.6.10={death=yes}
+	736.3.21={birth=yes}
+	799.4.18={death=yes}
 }
 

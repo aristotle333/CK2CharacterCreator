@@ -15,10 +15,11 @@ using std::to_string;
 
 struct characterAttributes {
     unordered_set<string> maleNames, femaleNames;
-    int currentID;      // The latest unused character ID
-    int headID;         // The character ID of the head
-    int headAge;        // The age of the head of the dynasty
-    int provinceID;     // The ID the province used to generate the dynasty ID
+    int currentID;                  // The latest unused character ID
+    int headID;                     // The character ID of the head
+    int headAge;                    // The age of the head of the dynasty
+    int fatherOfHeadBirthDate;      // The age of the father of the head of the dynasty
+    int provinceID;                 // The ID the province used to generate the dynasty ID
 };
 
 // Creates all characters for the specified provinces based on the settings selected

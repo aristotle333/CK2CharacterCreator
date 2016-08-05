@@ -19,10 +19,10 @@ void CreateCharacters(const string& characterOutputPath) {
             CreateCharacter(true, false, false, charAttr, ofs);
 
             // Create the parents
-            CreateCharacter(true, false, true, charAttr, ofs);  // Father of Head
+            CreateCharacter(true, false, true, charAttr, ofs);   // Father of Head
             CreateCharacter(false, true, false, charAttr, ofs);  // Mother of head
 
-            // Number of brothers or sisters
+            // Number of brothers and sisters
             int numberOfBrothers = randNumInRange(0, 3);
             int numberOfSisters = randNumInRange(0, 3);
 
@@ -38,7 +38,7 @@ void CreateCharacters(const string& characterOutputPath) {
                 }
             }
 
-            // Create brothers of the head
+            // Create sisters of the head
             while (numberOfSisters--) {
                 CreateCharacter(true, true, false, charAttr, ofs);
             }
@@ -139,18 +139,24 @@ pair<int, string> CreateBirthDate(bool isFemale, characterAttributes& charAttr) 
         year = randNumWithVar(settAttr.start_date - settAttr.mean_age_of_character_head, settAttr.age_variance_of_character_head);
         charAttr.headAge = settAttr.start_date - year;
     }
-    // Check if we create parents of the head
-    else if (charAttr.currentID == (charAttr.headID + 1) || charAttr.currentID == (charAttr.headID + 2)) {
-        year = randNumWithVar(settAttr.start_date - charAttr.headAge - 30, 5);
+    // Check if we create the father of the head
+    else if (charAttr.currentID == (charAttr.headID + 1)) {
+        year = randNumWithVar(settAttr.start_date - settAttr.mean_age_of_character_head -
+                              settAttr.age_variance_of_character_head - 25, 5);
+        charAttr.fatherOfHeadBirthDate = year;
+    }
+    // Check if we create the mother of the head
+    else if (charAttr.currentID == (charAttr.headID + 2)) {
+        year = randNumInRange(charAttr.fatherOfHeadBirthDate - 1, charAttr.fatherOfHeadBirthDate + 1);
     }
     // Check if we create sisters for the head or spouses for head's brother (they can be older than head)
     else if (isFemale) {
-        year = randNumWithVar(settAttr.start_date - charAttr.headAge, settAttr.age_variance_of_character_head);
+        year = randNumWithVar(settAttr.start_date - settAttr.mean_age_of_character_head,
+                              settAttr.age_variance_of_character_head);
     }
     // Check if we create brothers of the head (they must be younger than the head)
     else {
-        year = randNumInRange(settAttr.start_date - charAttr.headAge + 1,
-                              settAttr.start_date - 16);
+        year = randNumInRange(settAttr.start_date - charAttr.headAge + 1, settAttr.start_date - 16);
     }
 
     month = randNumInRange(1, 12);
@@ -166,7 +172,8 @@ string CreateMariageDate(int birthYear, characterAttributes& charAttr) {
 
     // Marriage of the father of the head
     if (charAttr.currentID == (charAttr.headID + 1)) {
-        year = randNumInRange(adultYear, settAttr.start_date - charAttr.headAge - 1);
+        year = randNumInRange(adultYear + 2, settAttr.start_date - settAttr.mean_age_of_character_head -
+                              settAttr.age_variance_of_character_head - 2);
     }
     // Marriage of the brothers of the head
     else {
@@ -183,7 +190,8 @@ string CreateDeathDate(int birthYear, characterAttributes& charAttr) {
     settingsAttributes& settAttr = settingsAttributes::get_instance();
     // Make sure parents of current head are dead before the start date
     if (charAttr.currentID == (charAttr.headID + 1) || charAttr.currentID == (charAttr.headID + 2)) {
-        year = randNumInRange(settAttr.start_date - charAttr.headAge + 1, settAttr.start_date - 1);
+        year = randNumInRange(settAttr.start_date - settAttr.mean_age_of_character_head + settAttr.age_variance_of_character_head + 2,
+                              settAttr.start_date - 1);
     }
     // Death is after the start date for all other characters
     else {
