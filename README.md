@@ -12,8 +12,8 @@ Screenshot of tool:
 ****
 
 ### Table of Contents
-* [Instructions](#Instructions)
-* [Tool Conventions](#Tool-Conventions)
+* [Instructions](#instructions)
+* [Tool Conventions](#tool-conventions)
 
 ### Instructions
 
