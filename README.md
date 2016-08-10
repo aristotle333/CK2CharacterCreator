@@ -138,7 +138,7 @@ for all provinces and thus you can steadily build your way up culture by culture
 
 For each province there will be a unique dynasty. Of course the title holders will no be assigned unless you do it in the title files.
 However you can use the County Title Creator tool that I made which will allow you to quickly assign the titles to the newly created characters.
-You can view the forum thread [here](https://forum.paradoxplaza.com/forum/index.php?threads/ck2-simple-county-title-creator.961353/#post-21678093) and view its
+You can view the forum thread [here](https://forum.paradoxplaza.com/forum/index.php?threads/ck2-simple-county-title-creator.961353/) and view its
 documentation [here](https://github.com/aristotle333/CK2CountyTitleCreator).
 
 Make sure you stick to the current tool conventions as specified above.
