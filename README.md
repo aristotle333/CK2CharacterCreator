@@ -21,7 +21,7 @@ Screenshot of the tool:
 
 ### Instructions
 
-1. To download this tool click [here]() or visit the Paradox Forum Thread [here]()
+1. To download this tool click [here](CharacterCreator.zip) or visit the Paradox Forum Thread [here]()
 2. Unzip the file to any desired location
 3. Open the file settings.txt
     * **Make sure the attributes you specify have a space to the right of the equals sign**
