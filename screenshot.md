@@ -1,0 +1,1 @@
+![alt tag](characterCreatorScreenshot.png)
