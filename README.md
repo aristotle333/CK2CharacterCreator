@@ -1,5 +1,13 @@
 # CK2 Character Creator
 
+### Table of Contents
+* [Introduction](#introduction)
+* [Instructions](#instructions)
+* [Tool Conventions](#tool-conventions)
+* [Tips on Tool Usage](#tips-on-tool-usage)
+
+### Introduction
+
 This is a Windows Forms tool that is useful for quickly creating random characters for large total conversion map mods.
 This tool works especially well if you want to create shattered world situations where each county is ruled by a different dynasty.
 
@@ -10,11 +18,6 @@ Screenshot of the tool:
 ![alt tag](characterCreatorScreenshot.png)
 
 ****
-
-### Table of Contents
-* [Instructions](#instructions)
-* [Tool Conventions](#tool-conventions)
-* [Tips on Tool Usage](#tips-on-tool-usage)
 
 ### Instructions
 
