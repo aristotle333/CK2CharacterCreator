@@ -1,5 +1,7 @@
 # CK2 Character Creator
 
+To download the tool click [HERE](CharacterCreator.zip)
+
 ### Table of Contents
 * [Introduction](#introduction)
 * [Instructions](#instructions)
